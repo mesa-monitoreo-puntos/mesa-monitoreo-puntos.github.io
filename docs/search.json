@@ -1,16 +1,156 @@
 [
   {
+    "objectID": "sesiones.html#sesión-02",
+    "href": "sesiones.html#sesión-02",
+    "title": "Sesiones",
+    "section": "Sesión 02",
+    "text": "Sesión 02"
+  },
+  {
+    "objectID": "sesiones.html#sesión-03",
+    "href": "sesiones.html#sesión-03",
+    "title": "Sesiones",
+    "section": "Sesión 03",
+    "text": "Sesión 03"
+  },
+  {
+    "objectID": "otros.html",
+    "href": "otros.html",
+    "title": "Otros recursos",
+    "section": "",
+    "text": "Malla de Puntos del SIMOCUTE N1\nMallas densificadas N2 y N3\nSistema de Clasificación del SIMOCUTE Versión 2.1\nínculo a la página del SIMOCUTE\nLink a manuales y recursos de R y Rstudio\nLink a páginas de descarga de CEO y CED\nLink a página de descarga de QGIS"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mesa de Monitoreo por Puntos",
     "section": "",
-    "text": "Mesa de Monitoreo por Puntos\nEvaluación Visual Multitemporal"
+    "text": "Este es el sitio web de la Mesa de Monitoreo por puntos del Sistema de Monitoreo y Cobertura de la Tierra y Ecosistemas (SIMOCUTE)."
+  },
+  {
+    "objectID": "index.html#qué-es-el-simocute",
+    "href": "index.html#qué-es-el-simocute",
+    "title": "Mesa de Monitoreo por Puntos",
+    "section": "¿Qué es el SIMOCUTE?",
+    "text": "¿Qué es el SIMOCUTE?"
+  },
+  {
+    "objectID": "index.html#qué-es-la-mesa-de-monitoreo-por-puntos",
+    "href": "index.html#qué-es-la-mesa-de-monitoreo-por-puntos",
+    "title": "Mesa de Monitoreo por Puntos",
+    "section": "¿Qué es la Mesa de Monitoreo por Puntos?",
+    "text": "¿Qué es la Mesa de Monitoreo por Puntos?"
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Mesa de Monitoreo por Puntos",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nGeneral\n\n\nEspecíficos"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Acerca de este sitio",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "Acerca de este sitio …"
+  },
+  {
+    "objectID": "componente-02.html#herramientas-a-utilizar",
+    "href": "componente-02.html#herramientas-a-utilizar",
+    "title": "Componente 02: Definición del marco metodológico del estudio",
+    "section": "Herramientas a utilizar",
+    "text": "Herramientas a utilizar"
+  },
+  {
+    "objectID": "componente-02.html#sistema-de-clasificación",
+    "href": "componente-02.html#sistema-de-clasificación",
+    "title": "Componente 02: Definición del marco metodológico del estudio",
+    "section": "Sistema de clasificación",
+    "text": "Sistema de clasificación"
+  },
+  {
+    "objectID": "componente-02.html#nivel-de-la-malla-de-puntos-a-analizar",
+    "href": "componente-02.html#nivel-de-la-malla-de-puntos-a-analizar",
+    "title": "Componente 02: Definición del marco metodológico del estudio",
+    "section": "Nivel de la malla de puntos a analizar",
+    "text": "Nivel de la malla de puntos a analizar"
+  },
+  {
+    "objectID": "componente-02.html#fuente-de-imágenes",
+    "href": "componente-02.html#fuente-de-imágenes",
+    "title": "Componente 02: Definición del marco metodológico del estudio",
+    "section": "Fuente de imágenes",
+    "text": "Fuente de imágenes"
+  },
+  {
+    "objectID": "componente-03.html#creación-de-las-plantillas-y-del-espacio-de-trabajo",
+    "href": "componente-03.html#creación-de-las-plantillas-y-del-espacio-de-trabajo",
+    "title": "Componente 03: Creación del proyecto",
+    "section": "Creación de las plantillas y del espacio de trabajo",
+    "text": "Creación de las plantillas y del espacio de trabajo"
+  },
+  {
+    "objectID": "componente-03.html#comparación-entre-el-desktop-y-el-online",
+    "href": "componente-03.html#comparación-entre-el-desktop-y-el-online",
+    "title": "Componente 03: Creación del proyecto",
+    "section": "Comparación entre el Desktop y el Online",
+    "text": "Comparación entre el Desktop y el Online"
+  },
+  {
+    "objectID": "componente-01.html#objetivos",
+    "href": "componente-01.html#objetivos",
+    "title": "Componente 01: Definición del marco general del estudio",
+    "section": "Objetivos",
+    "text": "Objetivos"
+  },
+  {
+    "objectID": "componente-01.html#alcance",
+    "href": "componente-01.html#alcance",
+    "title": "Componente 01: Definición del marco general del estudio",
+    "section": "Alcance",
+    "text": "Alcance"
+  },
+  {
+    "objectID": "componente-01.html#tiempo-del-estudio",
+    "href": "componente-01.html#tiempo-del-estudio",
+    "title": "Componente 01: Definición del marco general del estudio",
+    "section": "Tiempo del estudio",
+    "text": "Tiempo del estudio"
+  },
+  {
+    "objectID": "componente-01.html#forma-de-trabajo",
+    "href": "componente-01.html#forma-de-trabajo",
+    "title": "Componente 01: Definición del marco general del estudio",
+    "section": "Forma de trabajo",
+    "text": "Forma de trabajo"
+  },
+  {
+    "objectID": "componente-07.html#preparación-para-fiesta",
+    "href": "componente-07.html#preparación-para-fiesta",
+    "title": "Componente 07: Post procesamiento de los datos",
+    "section": "Preparación para FIESTA",
+    "text": "Preparación para FIESTA"
+  },
+  {
+    "objectID": "componente-05.html#sistema-de-clasificación",
+    "href": "componente-05.html#sistema-de-clasificación",
+    "title": "Componente 05: Desarrollo de la etapa de interpretación de las parcelas",
+    "section": "Sistema de clasificación",
+    "text": "Sistema de clasificación"
+  },
+  {
+    "objectID": "componente-05.html#control-de-la-calidad",
+    "href": "componente-05.html#control-de-la-calidad",
+    "title": "Componente 05: Desarrollo de la etapa de interpretación de las parcelas",
+    "section": "Control de la calidad",
+    "text": "Control de la calidad"
+  },
+  {
+    "objectID": "componente-08.html#cambio-e-incertidumbre",
+    "href": "componente-08.html#cambio-e-incertidumbre",
+    "title": "Componente 08: Análisis de los datos obtenidos del CE",
+    "section": "Cambio e incertidumbre",
+    "text": "Cambio e incertidumbre"
   }
 ]

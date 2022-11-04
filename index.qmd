@@ -1,9 +1,18 @@
 ---
 title: "Mesa de Monitoreo por Puntos"
+toc-title: "Contenidos"
 ---
 
-SIMOCUTE
+Este es el sitio web de la Mesa de Monitoreo por puntos del Sistema de Monitoreo y Cobertura de la Tierra y Ecosistemas (SIMOCUTE).
 
-Mesa de Monitoreo por Puntos
+## ¿Qué es el SIMOCUTE?
 
-Evaluación Visual Multitemporal
+## ¿Qué es la Mesa de Monitoreo por Puntos?
+
+## Objetivos
+
+### General
+
+### Específicos
+
+

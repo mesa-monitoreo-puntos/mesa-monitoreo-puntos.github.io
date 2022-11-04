@@ -1,0 +1,6 @@
+---
+title: "Componente 09: Validación y presentación de los resultados"
+toc-title: "Contenidos"
+---
+
+## Validación y presentación de los resultados

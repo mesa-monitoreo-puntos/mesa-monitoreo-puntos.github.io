@@ -1,0 +1,11 @@
+---
+title: "Otros recursos"
+---
+
+1. Malla de Puntos del SIMOCUTE N1
+2. Mallas densificadas N2 y N3
+3. Sistema de Clasificación del SIMOCUTE Versión 2.1
+4. ínculo a la página del SIMOCUTE
+5. Link a manuales y recursos de R y Rstudio
+6. Link a páginas de descarga de CEO y CED
+7. Link a página de descarga de QGIS
