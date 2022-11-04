@@ -39,6 +39,7 @@ website:
           - href: componente-09.qmd
             text: "C09 Validación y presentación de los resultados"          
       - section: "Estudios de EVM realizados"    
+        collapse-level: 0
         contents:
           - href: estudio-evm-01.qmd
             text: "EVM para el Nivel de Referencia (Secretaría REDD+)"
@@ -52,7 +53,7 @@ website:
             text: "Ejercicio Práctico Metodológico de Monitoreo por Puntos"                        
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
 
