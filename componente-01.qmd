@@ -1,0 +1,17 @@
+---
+title: "Componente 01: Definición del marco general del estudio"
+toc-title: "Contenidos"
+---
+
+## Escala espacial y temporal
+
+## Objetivos
+1. Objetivo 1
+2. Objetivo 2
+...
+
+## Alcance
+
+## Tiempo del estudio
+
+## Forma de trabajo

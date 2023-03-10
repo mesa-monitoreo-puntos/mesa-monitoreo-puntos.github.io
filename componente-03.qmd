@@ -1,0 +1,10 @@
+---
+title: "Componente 03: Creación del proyecto"
+toc-title: "Contenidos"
+---
+
+## Uso de Collect Earth
+
+## Creación de las plantillas y del espacio de trabajo
+
+## Comparación entre el Desktop y el Online

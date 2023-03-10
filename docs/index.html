@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mesa de Monitoreo por Puntos</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Mesa de Monitoreo por Puntos</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Principal</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sesiones.html">Sesiones</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./otros.html">Otros recursos</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">Acerca de este sitio</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Mesa de Monitoreo por Puntos</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Componentes de un estudio de EVM</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-01.html" class="sidebar-item-text sidebar-link">C01 Marco general</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-02.html" class="sidebar-item-text sidebar-link">C02 Marco metodológico</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-03.html" class="sidebar-item-text sidebar-link">C03 Creación del proyecto</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-04.html" class="sidebar-item-text sidebar-link">C04 Control y aseguramiento de la calidad</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-05.html" class="sidebar-item-text sidebar-link">C05 Interpretación de las parcelas</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-06.html" class="sidebar-item-text sidebar-link">C06 Análisis de la calidad</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-07.html" class="sidebar-item-text sidebar-link">C07 Post procesamiento</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-08.html" class="sidebar-item-text sidebar-link">C08 Análisis de los datos obtenidos del CE</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./componente-09.html" class="sidebar-item-text sidebar-link">C09 Validación y presentación de los resultados</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Estudios de EVM realizados</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./estudio-evm-01.html" class="sidebar-item-text sidebar-link">EVM para el Nivel de Referencia (Secretaría REDD+)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./estudio-evm-02.html" class="sidebar-item-text sidebar-link">Estudio de la Cuenca Madre de Dios (TerraSync)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./estudio-evm-03.html" class="sidebar-item-text sidebar-link">Estudio de la Cuenca Madre de Dios II (CEO)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./estudio-evm-04.html" class="sidebar-item-text sidebar-link">EVM para el sector agropecuario (Secretaría REDD+)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./estudio-evm-05.html" class="sidebar-item-text sidebar-link">Ejercicio Práctico Metodológico de Monitoreo por Puntos</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenidos</h2>
+   
+  <ul>
+  <li><a href="#qué-es-el-simocute" id="toc-qué-es-el-simocute" class="nav-link active" data-scroll-target="#qué-es-el-simocute"><strong>¿Qué es el SIMOCUTE?</strong></a></li>
+  <li><a href="#qué-es-la-mesa-de-monitoreo-por-puntos" id="toc-qué-es-la-mesa-de-monitoreo-por-puntos" class="nav-link" data-scroll-target="#qué-es-la-mesa-de-monitoreo-por-puntos">¿Qué es la Mesa de Monitoreo por Puntos?</a></li>
+  <li><a href="#objetivo-general" id="toc-objetivo-general" class="nav-link" data-scroll-target="#objetivo-general">Objetivo general</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-específicos" id="toc-objetivos-específicos" class="nav-link" data-scroll-target="#objetivos-específicos">Objetivos específicos</a></li>
+  </ul></li>
+  <li><a href="#qué-es-el-simocute-1" id="toc-qué-es-el-simocute-1" class="nav-link" data-scroll-target="#qué-es-el-simocute-1">¿Qué es el SIMOCUTE?</a></li>
+  <li><a href="#qué-es-la-mesa-de-monitoreo-por-puntos-1" id="toc-qué-es-la-mesa-de-monitoreo-por-puntos-1" class="nav-link" data-scroll-target="#qué-es-la-mesa-de-monitoreo-por-puntos-1">¿Qué es la Mesa de Monitoreo por Puntos?</a></li>
+  <li><a href="#objetivo-general-1" id="toc-objetivo-general-1" class="nav-link" data-scroll-target="#objetivo-general-1">Objetivo general</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-específicos-1" id="toc-objetivos-específicos-1" class="nav-link" data-scroll-target="#objetivos-específicos-1">Objetivos específicos</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Mesa de Monitoreo por Puntos</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Este es el sitio web de la Mesa de Monitoreo por puntos del Sistema de Monitoreo y Cobertura de la Tierra y Ecosistemas (SIMOCUTE).</p>
+<section id="qué-es-el-simocute" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-el-simocute"><strong>¿Qué es el SIMOCUTE?</strong></h2>
+<p>El Sistema Nacional de Monitoreo de Cobertura y Uso de la Tierra y Ecosistemas (<strong>SIMOCUTE</strong>) es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas (CENIGA: 2020).</p>
+<p><strong>Objetivo general</strong>: Conocer el estado actual y los cambios de la cobertura y uso de la tierra, así como de los ecosistemas de Costa Rica, proporcionando información periódica de alta calidad, que permita evaluar el estado el estado de los recursos del medio ambiente.</p>
+<p>El SIMOCUTE está diseñado para responder a tres preguntas específicas: ¿qué hay?, la cual se refiere a las categorías de uso, cobertura y escosistemas presentes en el territorio; ¿dónde está?, que hace referencia a la ubicación geográfica de los elementos definidos en la primera pregunta; y ¿cuánto hay? que indica la cuantificación de los recursos según su composición de cada una de dichas categorías (CENIGA: 2020).</p>
+<p>El SIMOCUTE está conformado en su gobernanza por el Comité Ejecutivo, la Unidad Coordinadora, el Grupo Consultivo de Mesas Técnicas y las Mesas Técnicas, las cuales constituyen la base de todo el sistema, desde donde se generan las discusiones y recomendaciones técnicas para el desarrollo del Sistema, así como se gestionan y elaboran productos que pueden ser utilizados por las instituciones.</p>
+</section>
+<section id="qué-es-la-mesa-de-monitoreo-por-puntos" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-la-mesa-de-monitoreo-por-puntos">¿Qué es la Mesa de Monitoreo por Puntos?</h2>
+<p>La Mesa de Monitreo por Puntos se creó en el año 2017 y fue la primera en ser creada. Tiene como objetivo “definir un proceso que apoye a las instituciones en el conocimiento del estado actual y los cambios en el uso y cobertura de la tierra, mediante un sistema de monitoreo visual de puntos, que permita disponer de datos frecuentes para la toma de decisiones y compromisos institucionales”.</p>
+<p>La Mesa técnica es coordinada por el Instituto Meteorológico Nacional y está conformada por representantes de instituciones del MINAE (CENIGA, IMN, FONAFIFO, Secretaría REDD+, SINAC), del MAG (INTA, SFE, SEPSA), otras instancias (BANCO CENTRAL, ICE, IGN, INEC), de la academia (PRIAS-CENAT, TEC, UCR, UNA, CATIE) y cooperantes (FAO, SilvaCarbon, PNUD).</p>
+<p>Esta Mesa ha tenido desde el 2017 sesiones de trabajo en donde se han desarrollado lo diferentes componentes de la metodología de Evaluación Visual Multitemporal (EVM). Además, se han elaborado varios estudios piloto en el contexto de la Mesa para tomar decisiones acerca de temas específicos de la metodología.</p>
+<p>La información resultante de esta metodología puede servir como insumo para los reportes solicitados por diferentes iniciativas, tales como el Programa REDD+, las Comunicaciones Nacionales e Informes Bienales de Actualización requeridos por la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC) y las Acciones de Mitigación Nacionalmente Apropiadas (NAMA, por sus siglas en inglés), así como el Inventario Nacional Forestal, cuentas ambientales, la academia, entre otros (Calvo y Hamilton: 2020).</p>
+</section>
+<section id="objetivo-general" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo-general">Objetivo general</h2>
+<p>El objetivo definido para la Mesa desde su conformación es el siguiente: “Definir un proceso que apoye a las instituciones en el conocimiento del estado actual y los cambios en el uso y cobertura de la tierra, mediante un sistema de monitoreo visual de puntos, que permita disponer de datos frecuentes para la toma de decisiones y compromisos institucionales”</p>
+<p>Para lograr esto se definieron los siguientes objetivos:</p>
+<section id="objetivos-específicos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos específicos</h3>
+<ol type="1">
+<li><p>Construir una metodología base de interpretación visual de puntos de muestreo para el monitoreo del uso y cobertura de la tierra.</p></li>
+<li><p>Preparar un documento técnico que detalle la metodología base de interpretación visual de puntos de muestreo para su revisión.</p></li>
+<li><p>Coordinar la realización de estudios piloto para la validación de la metodología base de interpretación visual de puntos de muestreo.</p></li>
+<li><p>Elaborar un protocolo con las pautas para la implementación y evaluación de la metodología base de interpretación visual de puntos de muestreo.</p></li>
+<li><p>Entregar al coordinador del SIMOCUTE el documento técnico y el protocolo de implementación y evaluación de la metodología base de interpretación visual de puntos de muestreo para su respectiva.</p></li>
+</ol>
+<p>=======</p>
+<p>Este es el sitio web de la Mesa de Monitoreo por puntos del Sistema de Monitoreo y Cobertura de la Tierra y Ecosistemas (SIMOCUTE).</p>
+</section>
+</section>
+<section id="qué-es-el-simocute-1" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-el-simocute-1">¿Qué es el SIMOCUTE?</h2>
+<p>El Sistema Nacional de Monitoreo de Cobertura y Uso de la Tierra y Ecosistemas (<strong>SIMOCUTE</strong>) es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas (CENIGA: 2020).</p>
+<p><strong>Objetivo general</strong>: Conocer el estado actual y los cambios de la cobertura y uso de la tierra, así como de los ecosistemas de Costa Rica, proporcionando información periódica de alta calidad, que permita evaluar el estado el estado de los recursos del medio ambiente.</p>
+<p>El SIMOCUTE está diseñado para responder a tres preguntas específicas: ¿qué hay?, la cual se refiere a las categorías de uso, cobertura y escosistemas presentes en el territorio; ¿dónde está?, que hace referencia a la ubicación geográfica de los elementos definidos en la primera pregunta; y ¿cuánto hay? que indica la cuantificación de los recursos según su composición de cada una de dichas categorías (CENIGA: 2020).</p>
+<p>El SIMOCUTE está conformado en su gobernanza por el Comité Ejecutivo, la Unidad Coordinadora, el Grupo Consultivo de Mesas Técnicas y las Mesas Técnicas, las cuales constituyen la base de todo el sistema, desde donde se generan las discusiones y recomendaciones técnicas para el desarrollo del Sistema, así como se gestionan y elaboran productos que pueden ser utilizados por las instituciones.</p>
+</section>
+<section id="qué-es-la-mesa-de-monitoreo-por-puntos-1" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-la-mesa-de-monitoreo-por-puntos-1">¿Qué es la Mesa de Monitoreo por Puntos?</h2>
+<p>La Mesa de Monitreo por Puntos se creó en el año 2017 y fue la primera en ser creada. Tiene como objetivo “definir un proceso que apoye a las instituciones en el conocimiento del estado actual y los cambios en el uso y cobertura de la tierra, mediante un sistema de monitoreo visual de puntos, que permita disponer de datos frecuentes para la toma de decisiones y compromisos institucionales”.</p>
+<p>La Mesa técnica es coordinada por el Instituto Meteorológico Nacional y está conformada por representantes de instituciones del MINAE (CENIGA, IMN, FONAFIFO, Secretaría REDD+, SINAC), del MAG (INTA, SFE, SEPSA), otras instancias (BANCO CENTRAL, ICE, IGN, INEC), de la academia (PRIAS-CENAT, TEC, UCR, UNA, CATIE) y cooperantes (FAO, SilvaCarbon, PNUD).</p>
+<p>Esta Mesa ha tenido desde el 2017 sesiones de trabajo en donde se han desarrollado lo diferentes componentes de la metodología de Evaluación Visual Multitemporal (EVM). Además, se han elaborado varios estudios piloto en el contexto de la Mesa para tomar decisiones acerca de temas específicos de la metodología.</p>
+<p>La información resultante de esta metodología puede servir como insumo para los reportes solicitados por diferentes iniciativas, tales como el Programa REDD+, las Comunicaciones Nacionales e Informes Bienales de Actualización requeridos por la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC) y las Acciones de Mitigación Nacionalmente Apropiadas (NAMA, por sus siglas en inglés), así como el Inventario Nacional Forestal, cuentas ambientales, la academia, entre otros (Calvo y Hamilton: 2020).</p>
+</section>
+<section id="objetivo-general-1" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo-general-1">Objetivo general</h2>
+<p>El objetivo definido para la Mesa desde su conformación es el siguiente: “Definir un proceso que apoye a las instituciones en el conocimiento del estado actual y los cambios en el uso y cobertura de la tierra, mediante un sistema de monitoreo visual de puntos, que permita disponer de datos frecuentes para la toma de decisiones y compromisos institucionales”</p>
+<p>Para lograr esto se definieron los siguientes objetivos:</p>
+<section id="objetivos-específicos-1" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-específicos-1">Objetivos específicos</h3>
+<ol type="1">
+<li><p>Construir una metodología base de interpretación visual de puntos de muestreo para el monitoreo del uso y cobertura de la tierra.</p></li>
+<li><p>Preparar un documento técnico que detalle la metodología base de interpretación visual de puntos de muestreo para su revisión.</p></li>
+<li><p>Coordinar la realización de estudios piloto para la validación de la metodología base de interpretación visual de puntos de muestreo.</p></li>
+<li><p>Elaborar un protocolo con las pautas para la implementación y evaluación de la metodología base de interpretación visual de puntos de muestreo.</p></li>
+<li><p>Entregar al coordinador del SIMOCUTE el documento técnico y el protocolo de implementación y evaluación de la metodología base de interpretación visual de puntos de muestreo para su respectiva.</p></li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

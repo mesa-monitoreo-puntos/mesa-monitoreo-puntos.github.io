@@ -1,0 +1,4 @@
+---
+title: "Estudio EVM: Ejercicio Práctico Metodológico de Monitoreo por Puntos"
+toc-title: "Contenidos"
+---

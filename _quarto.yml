@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mesa de Monitoreo por Puntos"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Principal
+      - href: sesiones.qmd
+        text: "Sesiones"
+      - href: otros.qmd
+        text: "Otros recursos"        
+      - href: about.qmd
+        text: "Acerca de este sitio"
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 0    
+    contents:
+      - section: "Componentes de un estudio de EVM"    
+        contents:
+          - href: componente-01.qmd
+            text: "C01 Marco general"
+          - href: componente-02.qmd
+            text: "C02 Marco metodológico"
+          - href: componente-03.qmd
+            text: "C03 Creación del proyecto"    
+          - href: componente-04.qmd
+            text: "C04 Control y aseguramiento de la calidad"
+          - href: componente-05.qmd
+            text: "C05 Interpretación de las parcelas"        
+          - href: componente-06.qmd
+            text: "C06 Análisis de la calidad"    
+          - href: componente-07.qmd
+            text: "C07 Post procesamiento"            
+          - href: componente-08.qmd
+            text: "C08 Análisis de los datos obtenidos del CE"                    
+          - href: componente-09.qmd
+            text: "C09 Validación y presentación de los resultados"          
+      - section: "Estudios de EVM realizados"    
+        contents:
+          - href: estudio-evm-01.qmd
+            text: "EVM para el Nivel de Referencia (Secretaría REDD+)"
+          - href: estudio-evm-02.qmd
+            text: "Estudio de la Cuenca Madre de Dios (TerraSync)"            
+          - href: estudio-evm-03.qmd
+            text: "Estudio de la Cuenca Madre de Dios II (CEO)"            
+          - href: estudio-evm-04.qmd
+            text: "EVM para el sector agropecuario (Secretaría REDD+)"            
+          - href: estudio-evm-05.qmd
+            text: "Ejercicio Práctico Metodológico de Monitoreo por Puntos"                        
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+editor: source
+

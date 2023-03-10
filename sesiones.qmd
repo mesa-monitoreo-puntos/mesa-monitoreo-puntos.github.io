@@ -1,0 +1,55 @@
+---
+title: "Sesiones"
+toc-title: "Contenidos"
+---
+
+<style>
+   table, th, td {
+      border: 3px solid black;
+   }
+</style>
+<table style>
+  <tr>
+    <th>Fecha</th>
+    <th>Número de sesión</th>
+    <th>Temas tratados</th>
+    <th>Acuerdos</th>
+  </tr>
+  <tr>
+    <td>19 de diciembre de 2022</td>
+    <td>21</td>
+    <td>
+Vinculación internacional de GEO con SIMOCUTE y Mesa Técnica de Monitoreo por Puntos: , ya que era un tema informativo. Se hizo una breve introducción sobre GEO (Gruop on Earth Observations) que incluye información satelital, el cual tiene portales para divulgar información. Menciona que Costa Rica tiene una representación en GEO, en donde Rafael Monge y Marilyn Calvo son los representantes del país. áreas de trabajo en GEO que están relacionadas con los objetivos de desarrollo sostenible (ODS). Amerigeo es el grupo que se realiza para América Latina.    
+    </td>
+    <td>
+Acuerdo de Amerigeo: en el 2023 Costa Rica será el anfitrión de la siguiente reunión de Amerigeo. Costa Rica, Perú y Estados Unidos son los responsables para desarrollar la próxima reunión de Amerigeo    
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>
+Oportunidades de Cooperación con la [Agencia Espacial de Perú](https://serviciosconida.com/). Se rigen por Comisión Nacional de Investigación y Desarrollo Espacial (CONIDA), cuya misión es “Promover, investigar, desarrollar y difundir ciencia y tecnología espacial, generando productos y servicios que contribuyan al desarrollo socioeconómico y seguridad de la nación, que impulse el posicionamiento espacial en la región”. A nivel internacional también tienen proyectos que se han realizado con universidades y países vecinos, incluyendo algunas organizaciones internacionales. Esto ha generado que se desarrollen experiencias a nivel latinoamericano.    
+    </td>
+    <td>
+    Identificar un proyecto en común entre ambos países.
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>
+    Discusión sobre propuesta de plan de trabajo de la Mesa para el año 2023.
+    </td>
+    <td>
+    Se aprueba plan de trabajo.
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><img src="everest.jpg" height="200"></td>
+  </tr>
+  
+</table>

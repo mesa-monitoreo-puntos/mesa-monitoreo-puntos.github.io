@@ -1,0 +1,6 @@
+---
+title: "Componente 06: Análisis de la calidad"
+toc-title: "Contenidos"
+---
+
+## Chequeos de QA/QC
