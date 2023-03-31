@@ -8,7 +8,7 @@ La Malla de Puntos N1 del SIMOCUTE y sus densificaciones N2 y N3
 
 Las mallas de puntos son un arreglo que forma hexágonos de 7 puntos que surgen de la necesidad de geolocalizar ubicaciones de forma sistemática que ayuden al monitoreo de los usos y coberturas de la tierra en Costa Rica. La malla principal a partir de las cuales surgen los niveles de mayor densidad de puntos proviene del arreglo sistemático del Inventario Forestal Nacional de 2013-2014 que lideró SINAC. La diferencia en distancia de los puntos de la malla original es de 2402.81m, reduciéndose a la mitad conforme se intensifican las mallas.
 
-[Método de construción y densificación de las mallas](documents/XXX.pdf)\
+[Método de construción y densificación de las mallas](documents/Prop_dens_Mallas_Dic_2019_sub_sub_mesa.pdf)\
 
 2.  Sistema de Clasificación del SIMOCUTE Versión 2.1
 
@@ -29,7 +29,7 @@ El uso de la tierra se define como "descripción del uso funcional de un sitio, 
 
 La cobertura de la tierra, corresponde a la cubierta biofísica presente en un sitio con sus elementos naturales y antrópicos. En este caso no requiere de análisis de contexto o inferencia del entorno, y no tiene un área mínima asociada a ella.
 
-[Sistema de Clasificación de Cobertura y Uso de la tierra del SIMOCUTE](documents/XXX.pdf)\
+[Sistema de Clasificación de Cobertura y Uso de la tierra del SIMOCUTE](documents/ManualClasificacionUsoyCoberturaTierraCR _version 1.1.pdf)\
 
 3.  Página del SIMOCUTE
 
