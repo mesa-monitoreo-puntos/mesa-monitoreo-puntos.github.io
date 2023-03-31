@@ -7,7 +7,7 @@ Este es el sitio web de la Mesa de Monitoreo por puntos del Sistema de Monitoreo
 
 ## **¿Qué es el SIMOCUTE?**
 
-El Sistema Nacional de Monitoreo de Cobertura y Uso de la Tierra y Ecosistemas (**SIMOCUTE**) es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas (CENIGA: 2020). 
+El [Sistema Nacional de Monitoreo de Cobertura y Uso de la Tierra y Ecosistemas (**SIMOCUTE**)](https://simocute.go.cr) es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas (CENIGA: 2020). 
 
 **Objetivo general**: Conocer el estado actual y los cambios de la cobertura y uso de la tierra, así como de los ecosistemas de Costa Rica, proporcionando información periódica de alta calidad, que permita evaluar el estado el estado de los recursos del medio ambiente. 
 
