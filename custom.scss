@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+
+// Color system
+
+$blue:          #0d6efd !default;
+$blue-simocute: #1a4f70 !default;
+$red:           #dc3545 !default;
+
+
+// Fonts
+
+$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-size-base:         .8rem !default;
+$toc-font-size:          .8rem !default;
+$legend-font-size:       .8rem !default;
+
+// scss-docs-start theme-color-variables
+$primary:       $blue-simocute !default;
