@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Mesa de monitoreo por puntos"
+  description: "Apoyamos a las instituciones en el conocimiento del estado actual y los cambios en el uso y cobertura de la tierra, mediante un sistema de monitoreo visual de puntos que permite disponer de datos frecuentes para toma de decisiones y compromisos institucionales."  
+
   navbar:
     left:
       - href: index.qmd
@@ -23,13 +25,16 @@ website:
         href: https://facebook.com/      
       - icon: twitter
         href: https://twitter.com/
+        
   sidebar:
     style: "docked"
     search: true
-    collapse-level: 0    
+    collapse-level: 1    
     contents:
-      - section: "Componentes de un estudio de EVM"    
+      - section: "Componentes de un estudio de monitoreo por puntos"    
         contents:
+          - href: introduccion-evm.qmd
+            text: "Introducción"        
           - href: componente-01.qmd
             text: "C01 Marco general"
           - href: componente-02.qmd
@@ -48,7 +53,7 @@ website:
             text: "C08 Análisis de los datos obtenidos del CE"                    
           - href: componente-09.qmd
             text: "C09 Validación y presentación de los resultados"          
-      - section: "Estudios de EVM realizados"    
+      - section: "Estudios de monitoreo por puntos realizados"
         contents:
           - href: estudio-evm-01.qmd
             text: "EVM para el Nivel de Referencia (Secretaría REDD+)"
@@ -60,12 +65,10 @@ website:
             text: "EVM para el sector agropecuario (Secretaría REDD+)"            
           - href: estudio-evm-05.qmd
             text: "Ejercicio Práctico Metodológico de Monitoreo por Puntos"          
-
+        
 format:
   html:
-    theme: 
-      - zephyr
-      - custom.scss
+    theme: custom.scss
     toc: true
     lang: es
 

@@ -3,6 +3,3 @@ title: "Componente 07: Post procesamiento de los datos"
 toc-title: "Contenidos"
 ---
 
-## Revisión y depuración de la base de datos
-
-## Preparación para FIESTA

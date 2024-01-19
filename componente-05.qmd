@@ -2,9 +2,3 @@
 title: "Componente 05: Desarrollo de la etapa de interpretación de las parcelas"
 toc-title: "Contenidos"
 ---
-
-## Protocolos de interpretación
-
-## Sistema de clasificación
-
-## Control de la calidad

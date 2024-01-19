@@ -3,4 +3,4 @@ title: "Componente 09: Validación y presentación de los resultados"
 toc-title: "Contenidos"
 ---
 
-## Validación y presentación de los resultados
+La validación de las estimaciones realizadas mediante esta metodología constituye una de las fases más importantes dentro del proceso de elaboración de un análisis de EVM. Esta validación pretende dar un nivel de confianza a los receptores de la información 

@@ -3,6 +3,4 @@ title: "Componente 08: Análisis de los datos obtenidos del CE"
 toc-title: "Contenidos"
 ---
 
-## FIESTA
-
-## Cambio e incertidumbre
+Los resultados obtenidos a partir de la plataforma Collect Earth Online, fueron analizados en el software R, para ello se utilizó el paquete llamado FIESTA del Servicio Forestal de los Estados Unidos. Este paquete y lo que hace se recomienda ver el documento elaborado por Vega (2021). Donde se detalla la interpretaciòn de los cambios entre los tiempos analizados según el uso o cobertura de la tierra.
