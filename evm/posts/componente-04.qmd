@@ -1,0 +1,6 @@
+---
+title: "Definición del proceso de control y aseguramiento de la calidad"
+date: 2023-01-04
+image: ../../img/componente-01.png
+toc: true
+---

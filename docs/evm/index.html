@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Mesa de Montoreo por Puntos de SIMOCUTE.">
 
-<title>Mesa de Monitoreo por Puntos - SIMOCUTE</title>
+<title>Evaluación Visual Multitemporal | Mesa de Monitoreo por Puntos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/rwds-favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/rwds-favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,76 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-evm .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-evm'] = new List('listing-evm', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-case-studies .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-case-studies'] = new List('listing-case-studies', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ideas .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ideas'] = new List('listing-ideas', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -152,18 +95,18 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="rwds.css">
-</head>
+<link rel="stylesheet" href="../rwds.css">
+<link rel="alternate" type="application/rss+xml" title="SIMOCUTE - Mesa de Monitoreo por Puntos" href="index.xml"></head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo-mmpp.png" alt="SIMOCUTE - Mesa de Monitoreo por Puntos" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo-mmpp.png" alt="SIMOCUTE - Mesa de Monitoreo por Puntos" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -173,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./evm/index.html" rel="" target="">
+    <a class="nav-link active" href="../evm/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Evaluación Visual Multitemporal</span></a>
   </li>  
 </ul>
@@ -184,115 +127,261 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Evaluación Visual Multitemporal</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="header-text">
-<div class="content-container">
-<section id="mesa-de-monitoreo-por-puntos" class="header-block">
-<h1>Mesa de Monitoreo por Puntos</h1>
-<h3 id="sistema-nacional-de-monitoreo-de-la-cobertura-y-uso-de-la-tierra-y-ecosistemas-simocute">Sistema Nacional de Monitoreo de la Cobertura y Uso de la Tierra y Ecosistemas (SIMOCUTE)</h3>
-</section>
-</div>
-</div>
-<div class="header-text">
-<div class="content-container">
-<div class="header-block">
-<p>El <a href="https://simocute.go.cr/">Sistema Nacional de Monitoreo de la Cobertura y Uso de la Tierra y Ecosistemas (SIMOCUTE)</a> es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas. El SIMOCUTE está conformado por un conjunto de mesas técnicas que generan recomendaciones y elaboran productos que pueden ser utilizados por las instituciones.<br>
-<br>
-La <strong>Mesa de Monitoreo por Puntos</strong> fue la primera mesa técnica en ser creada, en el año 2017. Está integrada por diversas instituciones del poder ejecutivo, autónomas, del sector académico y cooperantes.</p>
-</div>
-</div>
-</div>
-<div class="pullout-text">
-<div class="pullout-container">
-<div class="pullout-block black-background">
-<h2 id="objetivo-de-la-mesa-de-monitoreo-por-puntos">Objetivo de la Mesa de Monitoreo por Puntos</h2>
-<h2 id="definir-un-proceso-que-apoye-a-las-instituciones-en-el-conocimiento-del-estado-actual-y-los-cambios-en-el-uso-y-cobertura-de-la-tierra-mediante-un-sistema-de-monitoreo-visual-de-puntos-que-permita-disponer-de-datos-frecuentes-para-la-toma-de-decisiones-y-compromisos-institucionales"><em>“Definir un proceso que apoye a las instituciones en el conocimiento del estado actual y los cambios en el uso y cobertura de la tierra, mediante un sistema de monitoreo visual de puntos, que permita disponer de datos frecuentes para la toma de decisiones y compromisos institucionales”</em></h2>
-</div>
-</div>
-</div>
-<div class="header-text">
-<div class="content-container">
-<div class="header-block">
 
-</div>
-</div>
-</div>
-<div class="content-container">
-<div class="listing-block">
-<p><a href="componentes-evm/index.qmd"></a></p><a href="componentes-evm/index.qmd">
-<h2 id="evaluación-visual-multitemporal">Evaluación Visual Multitemporal</h2>
-</a><p><a href="componentes-evm/index.qmd"></a></p>
-<p>Para la implementación de un sistema de monitoreo visual de puntos, la Mesa se apoya en la metodología denominada Evaluación Visual Multitemporal (EVM).</p>
-<div class="content-container">
-<div class="top-story purple-background">
-<p><a href="./viewpoints/editors-blog/posts/2024/01/22/gen-ai-framework.html"></a></p><a href="./viewpoints/editors-blog/posts/2024/01/22/gen-ai-framework.html">
-<div class="grid">
-<section id="section" class="g-col-12 g-col-lg-4 top-story-text">
-<h2></h2>
-<p>La EVM es una metodología innovadora que proporciona información consistente y periódica acerca de la cobertura y el uso de la tierra. Se basa en la interpretación visual de imágenes satelitales para cuantificar las áreas de cada clase de cobertura y uso, sus cambios en el tiempo y el nivel de incertidumbre asociado.</p>
-</section>
-<div class="g-col-12 g-col-lg-8 top-story-img">
-<p><img src="img/monitoreoporpuntos.png" class="img-fluid"></p>
-</div>
-</div>
-</a><p><a href="./viewpoints/editors-blog/posts/2024/01/22/gen-ai-framework.html"></a></p>
-</div>
-</div>
-<p>Lorem ipsum …</p>
-<div id="listing-evm" class="quarto-listing quarto-listing-container-grid">
+<p>La Mesa de Monitoreo por Puntos implementa su objetivo mediante …</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1707885000117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./evm/posts/componente-01.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1673244000000" data-listing-file-modified-sort="1706585048670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-09.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Definición del marco general del estudio
+Validación y presentación de los resultados
 </h5>
-<div class="card-subtitle listing-subtitle">
-Escala espacial y temporal del estudio, objetivos, alcance, tiempo del estudio y forma de trabajo
+<div class="card-text listing-description">
+La validación de las estimaciones realizadas mediante esta metodología…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+9 ene 2023
+</div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1672639200000" data-listing-file-modified-sort="1706677808759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<a href="./evm/posts/componente-02.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1673157600000" data-listing-file-modified-sort="1706585031531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-08.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/componente-02.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Definición del marco metodológico del estudio
+Análisis de los datos obtenidos del CE
 </h5>
-<div class="card-subtitle listing-subtitle">
-Resumen del componente 02
+<div class="card-text listing-description">
+Los resultados obtenidos a partir de la plataforma Collect Earth Online, fueron analizados en el software R, para ello se utilizó el paquete llamado FIESTA del Servicio…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+8 ene 2023
+</div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1672725600000" data-listing-file-modified-sort="1706677865067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<a href="./evm/posts/componente-03.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1673071200000" data-listing-file-modified-sort="1706585346422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-07.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/componente-03.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Post procesamiento de los datos
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+7 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1672984800000" data-listing-file-modified-sort="1706584996711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-06.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis de la calidad
+</h5>
+<div class="card-text listing-description">
+El análisis de calidad realizado en este componentes es el reflejo de las capacidades generadas previo y final al desarrollo de la interpretación del Ejercicio Visual…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+6 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1672898400000" data-listing-file-modified-sort="1706585278466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-05.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Desarrollo de la etapa de interpretación de las parcelas
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+5 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1672812000000" data-listing-file-modified-sort="1706584923063" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-04.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Definición del proceso de control y aseguramiento de la calidad
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+4 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-date-sort="1672725600000" data-listing-file-modified-sort="1706677865067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../evm/posts/componente-03.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../img/componente-03.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Creación del proyecto
 </h5>
-<div class="card-subtitle listing-subtitle">
-Resumen del componente 03
+<div class="card-text listing-description">
+Una vez definido el marco metodológico de trabajo se procede a elaborar el proyecto para la interpretación en el Collect Earth. Esto corresponde con el diseño de las…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+3 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1672639200000" data-listing-file-modified-sort="1706677808759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="../evm/posts/componente-02.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../img/componente-02.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Definición del marco metodológico del estudio
+</h5>
+<div class="card-text listing-description">
+Este componente corresponde con la definición de lineamientos técnicos que debe seguir un estudio de EVM, a saber, el diseño de muestreo, las herramientas a utilizar, el…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+2 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1707885000117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../evm/posts/componente-01.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Definición del marco general del estudio
+</h5>
+<div class="card-text listing-description">
+Una vez que se han establecido la necesidad y los recursos disponibles para el estudio de EVM, se puede iniciar con la definición del marco metodológico sobre el que se…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+1 ene 2023
+</div>
 </div>
 </div>
 </div>
@@ -302,66 +391,7 @@ Resumen del componente 03
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
-</div>
-</div>
-</div>
-<div class="footer-text">
-<div class="footer-container black-background">
-<div class="footer-block">
-<div class="grid">
-<section id="published-by" class="g-col-12 g-col-md-2">
-<h3>Published by</h3>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><a href="https://rss.org.uk/"><img src="images/rss-footer-new.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-</section>
-<section id="our-partners" class="g-col-12 g-col-md-2">
-<h3>Our partners</h3>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><a href="https://www.amstat.org/"><img src="images/asa-footer-new.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-</section>
-<section id="with-support-from" class="g-col-12 g-col-md-2">
-<h3>With support from</h3>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><a href="https://www.turing.ac.uk/"><img src="images/ati-footer-new.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
-</section>
-<div class="g-col-12 g-col-md-2">
-
-</div>
-<section id="about-us" class="g-col-12 g-col-md-2">
-<h3>About us</h3>
-<p><a href="about-rwds.qmd">Our aims</a><br>
-<a href="./viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd">Our team</a><br>
-<a href="rwds-partners.qmd">Partners and funders</a><br>
-<a href="contact.qmd">Contact us</a></p>
-</section>
-<section id="contribute" class="g-col-12 g-col-md-2">
-<h3>Contribute</h3>
-<p><a href="./contributor-docs/call-for-contributions.qmd">Call for contributions</a><br>
-<a href="./contributor-docs/contributor-guidelines.qmd">Contributor guidelines</a><br>
-<a href="./contributor-docs/style-guide.qmd">Style guide</a></p>
-</section>
-<!-- ::: {.g-col-12 .g-col-md-12}
-### Our partners
-logos to go here
-::: -->
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -595,21 +625,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-case-studies">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-ideas">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div></div> <!-- /content -->
+</div> <!-- /content -->
 
 
 

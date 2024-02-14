@@ -1,0 +1,7 @@
+---
+title: "Post procesamiento de los datos"
+date: 2023-01-07
+image: ../../img/componente-01.png
+toc: true
+---
+

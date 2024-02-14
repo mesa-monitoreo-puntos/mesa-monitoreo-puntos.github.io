@@ -1,0 +1,6 @@
+---
+title: "Desarrollo de la etapa de interpretación de las parcelas"
+date: 2023-01-05
+image: ../../img/componente-01.png
+toc: true
+---

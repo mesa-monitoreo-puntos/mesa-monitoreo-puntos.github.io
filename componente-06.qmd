@@ -1,6 +1,0 @@
----
-title: "Componente 06: Análisis de la calidad"
-toc-title: "Contenidos"
----
-
-El análisis de calidad realizado en este componentes es el reflejo de las capacidades generadas previo y final al desarrollo de la interpretación del Ejercicio Visual Multitemporal (EVM), como parte de las conclusiones que se expusieron se pueden mencionar que con el diagnóstico aplicado al inicio del ejercicio versus el resultado final se encontró un incremento en los conocimientos y experiencia por parte de los participantes en la interpretación de las imágenes, además de la aplicación del método utilizado para el ejercicio para mayor información puede acudir al documento elaborado por Tapia y Ortiz (2020).

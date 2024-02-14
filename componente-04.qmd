@@ -1,5 +1,0 @@
----
-title: "Componente 04: Definición del proceso de control y aseguramiento de la calidad"
-toc-title: "Contenidos"
----
-
