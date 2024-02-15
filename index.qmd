@@ -19,7 +19,7 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    max-items: 3
+    max-items: 6
     feed: false
 
   - id: case-studies

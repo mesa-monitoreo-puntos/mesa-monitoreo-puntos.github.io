@@ -109,13 +109,27 @@
 
 
 
+<p>El objetivo de este proceso debe ser recudir la incertidumbre en la información acerca de los cambios en el uso y la cobertura de la tierra, debida al sesgo asociado al co-registro espacial del mapa y la ubicación de referencia, el sesgo del intérprete, o error en la asignación de la clase de referencia a la unidad espacial; y la variabilidad del intérprete (Ortiz, 2020).</p>
+<p>Este proceso es un componente transversal en todo el estudio de EVM, por lo que debe ser definido desde el inicio y depende mucho de los recursos con los que se cuente para implementar el estudio. No obstante, se sugieren diferentes tipos de controles que se llevaran a cabo antes, durante y después de la interpretación.</p>
+<p>Entre los controles iniciales se recomienda:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mesa-monitoreo-puntos.github.io/img/control-aseguramiento-calidad.png" class="img-fluid figure-img" style="width:50.0%" alt="Control y aseguramiento de la calidad"></p>
+<figcaption class="figure-caption">Control y aseguramiento de la calidad</figcaption>
+</figure>
+</div>
+<p>Por otro lado, en estudios previos se han implementado 3 tipos de controles asociados al desarrollo propio de la interpretación (Presentación 5.6.1):</p>
+<p>A. Chequeos en tiempo real (<em>hot checks</em>): este chequeo se da durante la interpretación y consiste en una retroalimentación inmediata sobre parcelas confusas o dudosas, para lo que el intérprete debe realizar un reporte que enviará al supervisor o persona a cargo y éste responderá en un plazo de 3 o menos días según se establezca al inicio del proyecto.</p>
+<p>B. Chequeos de replicabilidad (<em>blind checks</em>): Este tipo de chequeo tiene el propósito de evaluar la variabilidad entre intérpretes y corregir errores en las clasificaciones. Consiste en la selección aleatoria de un conjunto de parcelas que serán analizadas por dos intérpretes sin que ninguno sepa que son parcelas repetidas. Una tercera persona revisa las consistencias entre cada uno. El porcentaje mínimo de coincidencia debe ser de 95%, de otra forma se tendrá que revisar las interpretaciones.</p>
+<p>C. Chequeos aleatorios (<em>cold checks</em>): Consiste en chequeos de parcelas aleatorios que son revisadas nuevamente y contrastadas con respuestas dadas para esas parcelas por un grupo de evaluadores o intérpretes externos. La interpretación de los evaluadores se tomará como “testigo” y con esto se busca determinar la exactitud de la clasificación de los intérpretes. La coincidencia debe ser mayor a 95%.</p>
+<p>Finalmente, si los criterios definidos no se cumplen, se puede pedir al intérprete revisar y volver a realizar el análisis. De esta manera, se pretende que los datos de salida del modelo representen mucho mejor la realidad y los cambios que se detecten sean reales y no inducidos por error en la interpretación.</p>
 
 
 
  ]]></description>
   <guid>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-04.html</guid>
   <pubDate>Wed, 04 Jan 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-01.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-04.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Creación del proyecto</title>
