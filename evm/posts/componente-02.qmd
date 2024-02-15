@@ -32,3 +32,5 @@ La malla de puntos oficial del SIMOCUTE es la Malla Nivel 1 que tiene 10 600 pun
 
 ## 5. Fuente de las imágenes
 Un estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.
+
+![Fuente de las imágenes](../../img/fuente-imagenes.png){fig-alt="Fuente de las imágenes" fig-align="center" width=80%}

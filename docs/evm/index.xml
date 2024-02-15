@@ -182,6 +182,12 @@
 <section id="fuente-de-las-imágenes" class="level2">
 <h2 class="anchored" data-anchor-id="fuente-de-las-imágenes">5. Fuente de las imágenes</h2>
 <p>Un estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mesa-monitoreo-puntos.github.io/img/fuente-imagenes.png" class="img-fluid figure-img" style="width:80.0%" alt="Fuente de las imágenes"></p>
+<figcaption class="figure-caption">Fuente de las imágenes</figcaption>
+</figure>
+</div>
 
 
 </section>
