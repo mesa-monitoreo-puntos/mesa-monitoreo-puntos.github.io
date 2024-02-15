@@ -26,14 +26,14 @@
 
 
 
-<p>La validación de las estimaciones realizadas mediante esta metodología constituye una de las fases más importantes dentro del proceso de elaboración de un análisis de EVM. Esta validación pretende dar un nivel de confianza a los receptores de la información</p>
+<p>La validación de las estimaciones realizadas mediante esta metodología constituye una de las fases más importantes dentro del proceso de elaboración de un análisis de EVM. Esta validación pretende dar un nivel de confianza a los receptores de la información.</p>
 
 
 
  ]]></description>
   <guid>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-09.html</guid>
   <pubDate>Mon, 09 Jan 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-01.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-09.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Análisis de los datos obtenidos del CE</title>
@@ -43,14 +43,14 @@
 
 
 
-<p>Los resultados obtenidos a partir de la plataforma Collect Earth Online, fueron analizados en el software R, para ello se utilizó el paquete llamado FIESTA del Servicio Forestal de los Estados Unidos. Este paquete y lo que hace se recomienda ver el documento elaborado por Vega (2021). Donde se detalla la interpretaciòn de los cambios entre los tiempos analizados según el uso o cobertura de la tierra.</p>
+<p>La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis y obtener los valores de uso y cobertura, así como de los cambios ocurridos en el periodo de análisis, se ha construido un algoritmo de análisis en la plataforma RStudio, denominada como “FIESTA”.</p>
 
 
 
  ]]></description>
   <guid>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-08.html</guid>
   <pubDate>Sun, 08 Jan 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-01.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-08.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Post procesamiento de los datos</title>
@@ -66,24 +66,25 @@
  ]]></description>
   <guid>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-07.html</guid>
   <pubDate>Sat, 07 Jan 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-01.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-07.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
-  <title>Análisis de la calidad</title>
+  <title>Análisis de los datos</title>
   <link>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-06.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>El análisis de calidad realizado en este componentes es el reflejo de las capacidades generadas previo y final al desarrollo de la interpretación del Ejercicio Visual Multitemporal (EVM), como parte de las conclusiones que se expusieron se pueden mencionar que con el diagnóstico aplicado al inicio del ejercicio versus el resultado final se encontró un incremento en los conocimientos y experiencia por parte de los participantes en la interpretación de las imágenes, además de la aplicación del método utilizado para el ejercicio para mayor información puede acudir al documento elaborado por Tapia y Ortiz (2020).</p>
+<p>Una vez que la etapa de interpretación ha finalizado, se debe realizar el análisis de la calidad de la información utilizando para ello los resultados de los chequeos de control definidos en las etapas anteriores. El propósito de esta etapa es la de asegurar la calidad y, en caso de ser necesario, aplicar las medidas necesarias e interpretar nuevamente lo que requiera revisión.</p>
+<p>Por otro lado, en esta etapa se realiza una revisión de los datos. La base de datos con toda la información detallada de la interpretación se exporta desde Collect Earth y se hacen los ajustes de forma necesarios (nombres de encabezados, uso de puntos o comas, entre otros) a fin de que sea leída en el algoritmo FIESTA, sin problemas.</p>
 
 
 
  ]]></description>
   <guid>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-06.html</guid>
   <pubDate>Fri, 06 Jan 2023 06:00:00 GMT</pubDate>
-  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-01.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-06.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Desarrollo de la etapa de interpretación de las parcelas</title>

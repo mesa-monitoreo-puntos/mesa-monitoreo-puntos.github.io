@@ -1,8 +1,9 @@
 ---
 title: "Análisis de los datos obtenidos del CE"
+subtitle: "FIESTA, cambio e incertidumbre"
 date: 2023-01-08
-image: ../../img/componente-01.png
+image: ../../img/componente-08.png
 toc: true
 ---
 
-Los resultados obtenidos a partir de la plataforma Collect Earth Online, fueron analizados en el software R, para ello se utilizó el paquete llamado FIESTA del Servicio Forestal de los Estados Unidos. Este paquete y lo que hace se recomienda ver el documento elaborado por Vega (2021). Donde se detalla la interpretaciòn de los cambios entre los tiempos analizados según el uso o cobertura de la tierra.
+La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis y obtener los valores de uso y cobertura, así como de los cambios ocurridos en el periodo de análisis, se ha construido un algoritmo de análisis en la plataforma RStudio, denominada como “FIESTA”.

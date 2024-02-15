@@ -1,7 +1,7 @@
 ---
 title: "Post procesamiento de los datos"
+subtitle: "Revisión y depuración de la base de datos, preparación para FIESTA"
 date: 2023-01-07
-image: ../../img/componente-01.png
+image: ../../img/componente-07.png
 toc: true
 ---
-
