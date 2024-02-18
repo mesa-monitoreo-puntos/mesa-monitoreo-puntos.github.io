@@ -6,7 +6,7 @@ editor: source
 sidebar: false
 search: false
 description: | 
-  Mesa de Montoreo por Puntos de SIMOCUTE.
+  Mesa de Montoreo por Puntos de SIMOCUTE
 image: images/logo-mmpp.png
 listing:
   - id: evm
@@ -80,16 +80,12 @@ La **Mesa de Monitoreo por Puntos** fue la primera mesa técnica en ser creada, 
 :::
 :::
 
-::: {.header-text} 
-::: {.content-container}
 ::: {.header-block}
-:::
-:::
 :::
 
 ::: {.content-container}
 ::: {.listing-block}
-<a href="componentes-evm/index.qmd">
+<a href="evm/index.qmd">
 
 ## Evaluación Visual Multitemporal
 </a>
