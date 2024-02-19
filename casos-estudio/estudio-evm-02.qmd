@@ -1,4 +1,0 @@
----
-title: "Estudio EVM: Estudio de la Cuenca Madre de Dios (TerraSync)"
-toc-title: "Contenidos"
----

@@ -1,4 +1,0 @@
----
-title: "Estudio EVM: Estudio de la Cuenca Madre de Dios II (CEO)"
-toc-title: "Contenidos"
----

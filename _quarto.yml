@@ -16,6 +16,7 @@ website:
     collapse-below: lg
     right:
       - evm/index.qmd
+      - evm-casos-estudio/index.qmd
         
   page-navigation: true
 

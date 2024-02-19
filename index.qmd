@@ -22,33 +22,9 @@ listing:
     max-items: 9
     feed: false
 
-  - id: case-studies
-    contents: 
-    - /case-studies
-    - "!index.qmd"
-    sort: "date desc"
-    type: grid
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    max-items: 3
-    feed: false
-
-  - id: ideas
-    contents: 
-    - /ideas
-    - "!index.qmd"
-    - "!dsb-live.qmd"
-    sort: "date desc"
-    type: grid
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    max-items: 3
-    feed: false
-
 toc: false
 ---
+
 
 ::: {.header-text} 
 ::: {.content-container}
@@ -59,16 +35,18 @@ toc: false
 :::
 :::
 
+
 ::: {.header-text} 
 ::: {.content-container}
 ::: {.header-block}
-El [Sistema Nacional de Monitoreo de la Cobertura y Uso de la Tierra y Ecosistemas (SIMOCUTE)](https://simocute.go.cr/) es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas. El SIMOCUTE está conformado por un conjunto de mesas técnicas que generan recomendaciones y elaboran productos que pueden ser utilizados por las instituciones. 
+El [Sistema Nacional de Monitoreo de la Cobertura y Uso de la Tierra y Ecosistemas (SIMOCUTE)](https://simocute.go.cr/) es la plataforma oficial de coordinación, vinculación e integración institucional y sectorial del Estado costarricense para facilitar la gestión y distribución del conocimiento e información en materia de cobertura y uso de la tierra y ecosistemas.
 \
 \
-La **Mesa de Monitoreo por Puntos** fue la primera mesa técnica en ser creada, en el año 2017. Está integrada por diversas instituciones del poder ejecutivo, autónomas, del sector académico y cooperantes.
+El SIMOCUTE está conformado por un conjunto de mesas técnicas que generan recomendaciones y elaboran productos que pueden ser utilizados por las instituciones. La **Mesa de Monitoreo por Puntos** fue la primera mesa técnica en ser creada, en el año 2017. Está integrada por diversas instituciones del poder ejecutivo, autónomas, del sector académico y cooperantes.
 :::
 :::
 :::
+
 
 ::: {.pullout-text}
 ::: {.pullout-container}
@@ -80,8 +58,10 @@ La **Mesa de Monitoreo por Puntos** fue la primera mesa técnica en ser creada, 
 :::
 :::
 
+
 ::: {.header-block}
 :::
+
 
 ::: {.content-container}
 ::: {.listing-block}
@@ -94,7 +74,6 @@ Para la implementación de un sistema de monitoreo visual de puntos, la Mesa se 
 
 ::: {.content-container}
 ::: {.top-story .purple-background}
-<a href="/viewpoints/editors-blog/posts/2024/01/22/gen-ai-framework.html">
 
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .top-story-text}
@@ -106,16 +85,13 @@ La EVM es una metodología innovadora que proporciona información consistente y
 :::
 :::
 
-</a>
-
 :::
 :::
 
-Lorem ipsum ...
+Los componentes de la EVM ...
 
 ::: {#evm}
 :::
-
 
 :::
 :::
@@ -124,8 +100,8 @@ Lorem ipsum ...
 ::: {.footer-text}
 ::: {.footer-container .black-background}
 ::: {.footer-block}
-::: grid
 
+::: grid
 ::: {.g-col-12 .g-col-md-2}
 ### Published by
 [![](images/rss-footer-new.png){fig-align="left"}](https://rss.org.uk/)
@@ -153,14 +129,8 @@ Lorem ipsum ...
 [Contributor guidelines](/contributor-docs/contributor-guidelines.qmd)\
 [Style guide](/contributor-docs/style-guide.qmd)
 :::
-
-
-<!-- ::: {.g-col-12 .g-col-md-12}
-### Our partners
-logos to go here
-::: -->
-
 :::
+
 :::
 :::
 :::

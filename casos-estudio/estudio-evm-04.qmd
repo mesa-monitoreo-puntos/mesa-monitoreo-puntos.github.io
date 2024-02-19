@@ -1,4 +1,0 @@
----
-title: "Estudio EVM: EVM para el sector agropecuario (Secretaría REDD+)"
-toc-title: "Contenidos"
----

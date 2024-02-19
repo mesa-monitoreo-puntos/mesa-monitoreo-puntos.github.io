@@ -1,0 +1,9 @@
+---
+title: "Análisis de los datos obtenidos del CE"
+subtitle: "FIESTA, cambio e incertidumbre"
+date: 2023-01-08
+image: ../../img/componente-08.png
+toc: true
+---
+
+La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis y obtener los valores de uso y cobertura, así como de los cambios ocurridos en el periodo de análisis, se ha construido un algoritmo de análisis en la plataforma RStudio, denominada como “FIESTA”.

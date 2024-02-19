@@ -1,4 +1,0 @@
----
-title: "Estudio EVM: EVM para el Nivel de Referencia (Secretaría REDD+)"
-toc-title: "Contenidos"
----
