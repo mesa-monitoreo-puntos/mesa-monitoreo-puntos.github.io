@@ -24,8 +24,8 @@ format:
   html:
     lang: es
     code-link: true
-    theme: [lux, rwds.scss]
-    css: rwds.css
+    theme: [lux, mmpp.scss]
+    css: mmpp.css
     toc: true
     grid:
       sidebar-width: 0px
