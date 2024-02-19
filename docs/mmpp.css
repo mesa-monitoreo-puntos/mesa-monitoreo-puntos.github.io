@@ -691,6 +691,18 @@ div.quarto-post a {
   display: none;
 }
 
+.image-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1.8em; 
+  box-sizing: border-box;
+  border-bottom: 1px solid black;  
+}
+
 .top-story {
   max-width: 1000px;
   margin: 0 auto;
