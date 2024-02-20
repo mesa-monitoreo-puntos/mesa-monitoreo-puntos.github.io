@@ -51,7 +51,7 @@ El SIMOCUTE está conformado por un conjunto de mesas técnicas que generan reco
 
 
 ::: {.image-container}
-![](img/sesiones-trabajo-mmpp.png){fig-alt="Sesiones de trabajo de la Mesa de Monitoreo por Puntos" fig-align="center" width=60%}
+![](img/sesiones-trabajo-mmpp.png){.lightbox fig-alt="Sesiones de trabajo de la Mesa de Monitoreo por Puntos" fig-align="center" width=60%}
 :::
 
 
@@ -85,59 +85,23 @@ Para la implementación de un sistema de monitoreo visual de puntos, la Mesa se 
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .top-story-text}
 ## 
-La EVM es una metodología innovadora que proporciona información consistente y periódica acerca de la cobertura y el uso de la tierra. Se basa en la interpretación visual de imágenes satelitales para cuantificar las áreas de cada clase de cobertura y uso, sus cambios en el tiempo y el nivel de incertidumbre asociado.
+**La Evaluación Visual Multitemporal (EVM), también conocida como Sistema de Monitoreo por Puntos (SMPP), es una metodología que pretende proporcionar información consistente y periódica acerca de la composición de la cobertura o uso de la tierra, tanto a nivel nacional como regional y local, así como los cambios ocurridos en ambas propiedades del paisaje, entre intervalos determinados de tiempo.**
 :::
 ::: {.g-col-12 .g-col-lg-8 .top-story-img}
-![](img/monitoreoporpuntos.png)
+![](img/monitoreoporpuntos.png){.lightbox}
 :::
 :::
 
 :::
 :::
 
-Los componentes de la EVM ...
+El diseño de la EVM ha estado a cargo de un grupo de expertos de las instituciones que conforman la Mesa de Monitoreo por Puntos, con la guía del Servicio Forestal de los Estados Unidos (USFS) y el programa SilvaCarbon.
+
+### Componentes
+La EVM consta de nueve componentes esenciales.
 
 ::: {#evm}
 :::
 
-:::
-:::
-
-
-::: {.footer-text}
-::: {.footer-container .black-background}
-::: {.footer-block}
-
-::: grid
-::: {.g-col-12 .g-col-md-2}
-### Published by
-[![](images/rss-footer-new.png){fig-align="left"}](https://rss.org.uk/)
-:::
-::: {.g-col-12 .g-col-md-2}
-### Our partners
-[![](images/asa-footer-new.png){fig-align="left"}](https://www.amstat.org/)
-:::
-::: {.g-col-12 .g-col-md-2}
-### With support from 
-[![](images/ati-footer-new.png){fig-align="left"}](https://www.turing.ac.uk/)
-:::
-::: {.g-col-12 .g-col-md-2}
-:::
-::: {.g-col-12 .g-col-md-2}
-### About us
-[Our aims](about-rwds.qmd)\
-[Our team](/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd)\
-[Partners and funders](rwds-partners.qmd)\
-[Contact us](contact.qmd)
-:::
-::: {.g-col-12 .g-col-md-2}
-### Contribute
-[Call for contributions](/contributor-docs/call-for-contributions.qmd)\
-[Contributor guidelines](/contributor-docs/contributor-guidelines.qmd)\
-[Style guide](/contributor-docs/style-guide.qmd)
-:::
-:::
-
-:::
 :::
 :::
