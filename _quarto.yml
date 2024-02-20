@@ -17,6 +17,7 @@ website:
     right:
       - evm/index.qmd
       - evm-casos-estudio/index.qmd
+      - recursos/index.qmd
         
   page-navigation: true
 

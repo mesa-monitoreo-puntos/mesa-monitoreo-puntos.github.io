@@ -1,5 +1,0 @@
----
-title: "Acerca de este sitio"
----
-
-El presente sitio web tiene como objetivo difundir toda la información relacionada a la metodología de Evaluación Visual Multitemporal, la cual ha sido desarrollada en el contexto de la Mesa de Monitoreo por Puntos del SIMOCUTE. Los diferentes componentes de la metodología están ordenados de manera tal que se puedan seguir cada uno de los pasos desde el inicio para implementar un proyecto de EVM a escala nacional, regional o local.
