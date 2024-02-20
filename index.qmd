@@ -110,7 +110,15 @@ La EVM consta de nueve componentes esenciales.
 ::: {.footer-text}
 ::: {.footer-container .black-background}
 ::: {.footer-block}
+::: grid
 
+
+::: {.g-col-12 .g-col-md-12}
+Derechos de autor &copy; 2024 [SIMOCUTE](https://simocute.go.cr/)
+
+:::
+
+:::
 :::
 :::
 :::

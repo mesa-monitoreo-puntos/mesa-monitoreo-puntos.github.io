@@ -20,15 +20,6 @@ website:
         
   page-navigation: true
 
-  page-footer:
-    background: "#000000"
-    left: |
-      Derechos de autor &copy; 2024 [SIMOCUTE](https://simocute.go.cr/)
-    center:
-      - href: https://github.com/mesa-monitoreo-puntos/mesa-monitoreo-puntos.github.io
-        icon: github
-        aria-label: GitHub  
-
 format:
   html:
     lang: es
