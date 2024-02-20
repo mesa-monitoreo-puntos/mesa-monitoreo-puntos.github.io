@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -151,7 +151,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#determinación-de-la-necesidad" id="toc-determinación-de-la-necesidad" class="nav-link" data-scroll-target="#determinación-de-la-necesidad">Determinación de la necesidad</a></li>
+  <li><a href="#componentes" id="toc-componentes" class="nav-link" data-scroll-target="#componentes">Componentes</a></li>
+  </ul>
+</nav>
     <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -159,108 +167,95 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>La Mesa de Monitoreo por Puntos implementa su objetivo mediante …</p>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<p>La Evaluación Visual Multitemporal (EVM), también conocida como “Sistema de Monitoreo por Puntos (SMPP)”, es una metodología que pretende proporcionar información consistente y periódica acerca de la composición de la cobertura o uso de la tierra, tanto a nivel nacional como regional y local, así como los cambios ocurridos en ambas propiedades del paisaje, entre intervalos determinados de tiempo (Calvo y Hamilton: 2020; https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf).</p>
+<p>El diseño de la EVM ha estado a cargo de un grupo de expertos de las instituciones que conforman la Mesa Técnica sobre Estimación de Cambios en la Superficie de la Tierra por Puntos (Monitoreo por Puntos), con la guía del Servicio Forestal de los Estados Unidos (USFS) y el programa SilvaCarbon (Calvo y Hamilton: 2020; https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf).</p>
+<p>La EVM consiste en un muestreo directo de todas las tierras a través de interpretación visual de imágenes de alta resolución, para cuantificar las áreas de cada cobertura y uso de la tierra, los cambios y el nivel de incertidumbre asociado. La metodología consiste en diseñar una grilla sistemática de puntos (que puede ser de 3 x 3, 5 x 5 puntos o más, según la necesidad y recursos) sobre parcelas predefinidas (ver información de las Mallas de SIMOCUTE en el componente 2 de la metodología), visualizándolas sobre imágenes de alta resolución. Un analista con experiencia en el campo revisa los puntos de la grilla e interpreta la cobertura o el uso de la tierra de cada uno (Calvo y Hamilton: 2020; https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf).</p>
+</section>
+<section id="determinación-de-la-necesidad" class="level2">
+<h2 class="anchored" data-anchor-id="determinación-de-la-necesidad">Determinación de la necesidad</h2>
+<p>El primer paso para la implementación de una EVM es determinar la necesidad que se busca solventar con la información estimada acerca del uso y cobertura de la tierra, ecosistemas, y sus cambios asociados. Este paso es fundamental porque determinará el abordaje metodológico del estudio en lo que se refiere a la escala espacial y temporal, nivel de detalle de la información que se quiere recopilar, el nivel apropiado en el sistema de clasificación y en el nivel de la malla de puntos (parcelas) que se usará para realizar la interpretación, el nivel de incertidumbre aceptable, entre otros. Asimismo, la elaboración de la necesidad debe ir acompañada por un análisis preliminar de los recursos de los que se dispone, ya sean económicos, intelectuales, de personal, así como el tiempo del que se dispone para completar el estudio. En este sentido, este primer paso debe responder a las preguntas: ¿Cuál el problema o necesidad que se quiere abordar y requiere para su resolución datos sobre uso de la tierra, cobertura de la tierra y/o ecosistemas? ¿Quiénes son las personas, instituciones, organismos o entes interesados en los resultados del estudio? ¿Cuáles son los recursos que se pueden destinar al estudio? ¿Qué arreglos debo gestionar para poner en marcha el proyecto de EVM? entre otras.</p>
+</section>
+<section id="componentes" class="level2">
+<h2 class="anchored" data-anchor-id="componentes">Componentes</h2>
+<p>Es esta sección se presentan los pasos a seguir, de acuerdo con cada componente de la metodología, para implementar un proyecto de EVM.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/flujo-trabajo-evm.png" class="img-fluid figure-img" style="width:80.0%" alt="Flujo de trabajo de la EVM"></p>
+<figcaption class="figure-caption">Flujo de trabajo de la EVM</figcaption>
+</figure>
+</div>
 
 
 
+</section>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1673244000000" data-listing-file-modified-sort="1707968798680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../evm/posts/componente-09.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1707885000117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../evm/posts/componente-01.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-09.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Validación y presentación de los resultados
+Definición del marco general del estudio
 </h5>
-<div class="card-text listing-description">
-La validación de las estimaciones realizadas mediante esta metodología constituye…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-9 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Escala espacial y temporal del estudio, objetivos, alcance, tiempo del estudio y forma de trabajo
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1673157600000" data-listing-file-modified-sort="1707968687323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../evm/posts/componente-08.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1672639200000" data-listing-file-modified-sort="1707959096287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="../evm/posts/componente-02.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-08.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-02.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Análisis de los datos obtenidos del CE
+Definición del marco metodológico del estudio
 </h5>
-<div class="card-text listing-description">
-La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis y obtener los…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-8 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Diseño de muestreo, herramientas, sistema de clasificación, nivel de la malla de puntos y fuente de las imágenes
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1673071200000" data-listing-file-modified-sort="1707968591985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../evm/posts/componente-07.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1672725600000" data-listing-file-modified-sort="1707960200723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../evm/posts/componente-03.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-07.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-03.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Post procesamiento de los datos
+Creación del proyecto
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-7 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Uso del Collect Earth, creación de las plantillas y del espacio de trabajo
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1672984800000" data-listing-file-modified-sort="1707968365378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="../evm/posts/componente-06.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1672812000000" data-listing-file-modified-sort="1707964653513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../evm/posts/componente-04.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-06.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-04.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Análisis de los datos
+Definición del proceso de control y aseguramiento de la calidad
 </h5>
-<div class="card-text listing-description">
-Una vez que la etapa de interpretación ha finalizado, se debe realizar el análisis de la calidad de la información utilizando para ello los resultados de los chequeos de…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-6 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Chequeos: cold, hot and blind checks
 </div>
 </div>
 </div>
@@ -276,116 +271,76 @@ Una vez que la etapa de interpretación ha finalizado, se debe realizar el anál
 <h5 class="no-anchor card-title listing-title">
 Desarrollo de la etapa de interpretación de las parcelas
 </h5>
-<div class="card-text listing-description">
-Una vez que las etapas anteriores están definidas y el proyecto ha sido creado en Collect Earth, se pueda iniciar con el…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-5 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Protocolos de interpretación y sistema de clasificación, control de la calidad
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1672812000000" data-listing-file-modified-sort="1707964653513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="../evm/posts/componente-04.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1672984800000" data-listing-file-modified-sort="1707968365378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-06.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-04.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-06.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Definición del proceso de control y aseguramiento de la calidad
+Análisis de los datos
 </h5>
-<div class="card-text listing-description">
-El objetivo de este proceso debe ser recudir la incertidumbre en la información acerca de los cambios en el uso y la cobertura de la tierra, debida al sesgo asociado al…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-4 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Calidad de la interpretación basada en los chequeos de QA/QC
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1672725600000" data-listing-file-modified-sort="1707960200723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<a href="../evm/posts/componente-03.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1673071200000" data-listing-file-modified-sort="1707968591985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-07.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-03.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-07.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Creación del proyecto
+Post procesamiento de los datos
 </h5>
-<div class="card-text listing-description">
-Una vez definido el marco metodológico de trabajo se procede a elaborar el proyecto para la interpretación en Collect Earth (. Esto corresponde con el diseño de las…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-3 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+Revisión y depuración de la base de datos, preparación para FIESTA
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1672639200000" data-listing-file-modified-sort="1707959096287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<a href="../evm/posts/componente-02.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1673157600000" data-listing-file-modified-sort="1707968687323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-08.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-02.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-08.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Definición del marco metodológico del estudio
+Análisis de los datos obtenidos del CE
 </h5>
-<div class="card-text listing-description">
-Este componente corresponde con la definición de lineamientos técnicos que debe seguir un estudio de EVM, a saber, el diseño de muestreo, las herramientas a utilizar, el…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-2 ene 2023
-</div>
+<div class="card-subtitle listing-subtitle">
+FIESTA, cambio e incertidumbre
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1707885000117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="../evm/posts/componente-01.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1673244000000" data-listing-file-modified-sort="1707968798680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../evm/posts/componente-09.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../img/componente-01.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../img/componente-09.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Definición del marco general del estudio
+Validación y presentación de los resultados
 </h5>
-<div class="card-text listing-description">
-Una vez que se han establecido la necesidad y los recursos disponibles para el estudio de EVM, se puede iniciar con la definición del marco metodológico sobre el que se…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
+<div class="card-subtitle listing-subtitle">
 
-</div>
-<div class="listing-date">
-1 ene 2023
-</div>
 </div>
 </div>
 </div>

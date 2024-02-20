@@ -13,13 +13,13 @@ listing:
     contents: 
     - /evm
     - "!index.qmd"
-    fields: ["image", "title", "subtitle"]
+    fields: ["image", "subtitle"]
     sort: "date"
     type: grid
     categories: false
     sort-ui: false
     filter-ui: false
-    max-items: 9
+    page-size: 30
     feed: false
 
 toc: false
