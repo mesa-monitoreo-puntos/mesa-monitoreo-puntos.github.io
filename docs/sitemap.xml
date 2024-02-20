@@ -1,55 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-09.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/index.html</loc>
+    <lastmod>2024-02-20T05:15:34.278Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-09.html</loc>
     <lastmod>2024-02-15T03:46:38.680Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-05.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-05.html</loc>
     <lastmod>2024-02-15T03:24:51.795Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-01.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-01.html</loc>
     <lastmod>2024-02-14T04:30:00.117Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-06.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-06.html</loc>
     <lastmod>2024-02-15T03:39:25.378Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-02.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-02.html</loc>
     <lastmod>2024-02-15T01:04:56.287Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/introduccion-evm.html</loc>
-    <lastmod>2024-01-19T05:29:35.649Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-08.html</loc>
-    <lastmod>2024-02-15T03:44:47.323Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-07.html</loc>
-    <lastmod>2024-02-15T03:43:11.985Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-04.html</loc>
-    <lastmod>2024-02-15T02:37:33.513Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-03.html</loc>
-    <lastmod>2024-02-15T01:23:20.723Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/index.html</loc>
-    <lastmod>2024-02-19T05:28:50.457Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/about.html</loc>
-    <lastmod>2024-01-19T04:41:28.573Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/otros.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/sesiones/sesiones.html</loc>
     <lastmod>2023-05-09T21:57:09.095Z</lastmod>
   </url>
   <url>
@@ -57,47 +33,35 @@
     <lastmod>2024-02-20T03:38:01.733Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/sesiones/sesiones.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/otros.html</loc>
     <lastmod>2023-05-09T21:57:09.095Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-02.html</loc>
-    <lastmod>2024-02-15T01:04:56.287Z</lastmod>
+    <loc>https://mesa-monitoreo-puntos.github.io/about.html</loc>
+    <lastmod>2024-01-19T04:41:28.573Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-06.html</loc>
-    <lastmod>2024-02-15T03:39:25.378Z</lastmod>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/index.html</loc>
+    <lastmod>2024-02-19T05:28:50.457Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-01.html</loc>
-    <lastmod>2024-02-14T04:30:00.117Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-05.html</loc>
-    <lastmod>2024-02-15T03:24:51.795Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-09.html</loc>
-    <lastmod>2024-02-15T03:46:38.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/index.html</loc>
-    <lastmod>2024-02-18T06:05:41.331Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-03.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-03.html</loc>
     <lastmod>2024-02-15T01:23:20.723Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-04.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-04.html</loc>
     <lastmod>2024-02-15T02:37:33.513Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-07.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-07.html</loc>
     <lastmod>2024-02-15T03:43:11.985Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/componente-08.html</loc>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-08.html</loc>
     <lastmod>2024-02-15T03:44:47.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/introduccion-evm.html</loc>
+    <lastmod>2024-01-19T05:29:35.649Z</lastmod>
   </url>
 </urlset>

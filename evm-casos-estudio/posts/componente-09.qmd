@@ -1,9 +1,0 @@
----
-title: "Validación y presentación de los resultados"
-subtitle: ""
-date: 2023-01-09
-image: ../../img/componente-09.png
-toc: true
----
-
-La validación de las estimaciones realizadas mediante esta metodología constituye una de las fases más importantes dentro del proceso de elaboración de un análisis de EVM. Esta validación pretende dar un nivel de confianza a los receptores de la información.
