@@ -105,3 +105,12 @@ La EVM consta de nueve componentes esenciales.
 
 :::
 :::
+
+
+::: {.footer-text}
+::: {.footer-container .black-background}
+::: {.footer-block}
+
+:::
+:::
+:::
