@@ -31,36 +31,36 @@
     "objectID": "evm/posts/componente-01.html#escala-espacial-y-temporal",
     "href": "evm/posts/componente-01.html#escala-espacial-y-temporal",
     "title": "Definición del marco general del estudio",
-    "section": "1. Escala espacial y temporal",
-    "text": "1. Escala espacial y temporal\nSe refiere al área geográfica que se requiere evaluar, la cual puede ser local, por ejemplo, un cantón, regional. por ejemplo: provincias, regiones climáticas, regiones productivas, entre otros, o nacional. Cada una de estas escalas requiere más tiempo y recursos según se vaya desde la escala local a una nacional; además, el uso de escalas más detalladas podría implicar la utilización de niveles de malla de puntos más densificados. La escala temporal hace referencia al periodo de estudio, puesto que el propósito principal de la EVM es obtener información sobre el estado actual del territorio y los cambios que ocurren en él, razón por la cual, se define un T1 que corresponde con el año 1 de evaluación y T2 que sería el año 2 y se define según el periodo para el que se requiere información de cambio."
+    "section": "Escala espacial y temporal",
+    "text": "Escala espacial y temporal\nSe refiere al área geográfica que se requiere evaluar, la cual puede ser local, por ejemplo, un cantón, regional. por ejemplo: provincias, regiones climáticas, regiones productivas, entre otros, o nacional. Cada una de estas escalas requiere más tiempo y recursos según se vaya desde la escala local a una nacional; además, el uso de escalas más detalladas podría implicar la utilización de niveles de malla de puntos más densificados. La escala temporal hace referencia al periodo de estudio, puesto que el propósito principal de la EVM es obtener información sobre el estado actual del territorio y los cambios que ocurren en él, razón por la cual, se define un T1 que corresponde con el año 1 de evaluación y T2 que sería el año 2 y se define según el periodo para el que se requiere información de cambio."
   },
   {
     "objectID": "evm/posts/componente-01.html#objetivos",
     "href": "evm/posts/componente-01.html#objetivos",
     "title": "Definición del marco general del estudio",
-    "section": "2. Objetivos",
-    "text": "2. Objetivos\nEs importante tener bien clara la necesidad para poder construir objetivos pertinentes que puedan ser cumplidos en el tiempo apropiado."
+    "section": "Objetivos",
+    "text": "Objetivos\nEs importante tener bien clara la necesidad para poder construir objetivos pertinentes que puedan ser cumplidos en el tiempo apropiado."
   },
   {
     "objectID": "evm/posts/componente-01.html#alcance",
     "href": "evm/posts/componente-01.html#alcance",
     "title": "Definición del marco general del estudio",
-    "section": "3. Alcance",
-    "text": "3. Alcance\nEn este caso, se hace referencia a aspectos básicos como el nivel de detalle de la información que se requiere recopilar con el estudio, la incertidumbre permitida y las posibles fuentes de error del estudio. Además, en esta etapa se define lo que se requiere medir, es decir, si se requiere interpretar solo el uso de la tierra o, es pertinente también tener información de cobertura y/o ecosistemas. Las definiciones de estas variables se darán más adelante."
+    "section": "Alcance",
+    "text": "Alcance\nEn este caso, se hace referencia a aspectos básicos como el nivel de detalle de la información que se requiere recopilar con el estudio, la incertidumbre permitida y las posibles fuentes de error del estudio. Además, en esta etapa se define lo que se requiere medir, es decir, si se requiere interpretar solo el uso de la tierra o, es pertinente también tener información de cobertura y/o ecosistemas. Las definiciones de estas variables se darán más adelante."
   },
   {
     "objectID": "evm/posts/componente-01.html#tiempo-del-estudio",
     "href": "evm/posts/componente-01.html#tiempo-del-estudio",
     "title": "Definición del marco general del estudio",
-    "section": "4. Tiempo del estudio",
-    "text": "4. Tiempo del estudio\nEn esta sección se debe definir el año T1 y el T2, que corresponden con el primer y el último año de medición. Las diferencias entre ambos constituirán el cambio en el uso, cobertura de la tierra o ecosistema, según se esté midiendo.\n\n\n\nEjemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"
+    "section": "Tiempo del estudio",
+    "text": "Tiempo del estudio\nEn esta sección se debe definir el año T1 y el T2, que corresponden con el primer y el último año de medición. Las diferencias entre ambos constituirán el cambio en el uso, cobertura de la tierra o ecosistema, según se esté midiendo.\n\n\n\nEjemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"
   },
   {
     "objectID": "evm/posts/componente-01.html#forma-de-trabajo",
     "href": "evm/posts/componente-01.html#forma-de-trabajo",
     "title": "Definición del marco general del estudio",
-    "section": "5. Forma de trabajo",
-    "text": "5. Forma de trabajo\nEn última instancia, es importante definir la manera más apropiada para llevar a cabo la EVM, en lo referente a la organización del equipo, el abordaje de cada etapa o componente metodológico, la asignación del trabajo a cada involucrado, sean individuos contratados, empresas, instituciones o cualquier otro. Por ejemplo, pueden crearse grupos de trabajo para cada componente: uno que se enfoque en los primeros componentes, los cuales desarrollan el marco metodológico sobre el que se realizará la evaluación; otro que se dedique a la interpretación, que podría estar organizado en subgrupos con un asesor o supervisor para cada uno, el cual fungiría como guía de los intérpretes, al tiempo que realizan el control de la calidad; posteriormente, se puede formar un equipo a cargo del análisis de los datos resultantes de la interpretación. Este último grupo realizaría también otra parte del análisis de calidad de los datos y la evaluación de la incertidumbre. Finalmente, se puede tener un grupo interno o externo que realizaría la validación de los resultados."
+    "section": "Forma de trabajo",
+    "text": "Forma de trabajo\nEn última instancia, es importante definir la manera más apropiada para llevar a cabo la EVM, en lo referente a la organización del equipo, el abordaje de cada etapa o componente metodológico, la asignación del trabajo a cada involucrado, sean individuos contratados, empresas, instituciones o cualquier otro. Por ejemplo, pueden crearse grupos de trabajo para cada componente: uno que se enfoque en los primeros componentes, los cuales desarrollan el marco metodológico sobre el que se realizará la evaluación; otro que se dedique a la interpretación, que podría estar organizado en subgrupos con un asesor o supervisor para cada uno, el cual fungiría como guía de los intérpretes, al tiempo que realizan el control de la calidad; posteriormente, se puede formar un equipo a cargo del análisis de los datos resultantes de la interpretación. Este último grupo realizaría también otra parte del análisis de calidad de los datos y la evaluación de la incertidumbre. Finalmente, se puede tener un grupo interno o externo que realizaría la validación de los resultados."
   },
   {
     "objectID": "evm/posts/componente-06.html",
@@ -80,36 +80,36 @@
     "objectID": "evm/posts/componente-02.html#diseño-de-muestreo",
     "href": "evm/posts/componente-02.html#diseño-de-muestreo",
     "title": "Definición del marco metodológico del estudio",
-    "section": "1. Diseño de muestreo",
-    "text": "1. Diseño de muestreo\nConsidera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se ve en la siguiente imagen.\n\n\n\nDiseño del muestreo\n\n\nAlgunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación 5.3.1."
+    "section": "Diseño de muestreo",
+    "text": "Diseño de muestreo\nConsidera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se ve en la siguiente imagen.\n\n\n\nDiseño del muestreo\n\n\nAlgunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación 5.3.1."
   },
   {
     "objectID": "evm/posts/componente-02.html#herramientas-a-utilizar",
     "href": "evm/posts/componente-02.html#herramientas-a-utilizar",
     "title": "Definición del marco metodológico del estudio",
-    "section": "2. Herramientas a utilizar",
-    "text": "2. Herramientas a utilizar\nEsto se refiere al sistema computacional que se utilizará para la interpretación de las parcelas. En el marco del SIMOCUTE se han sugerido dos herramientas para realizar este trabajo, que serían el Collect Earth Desktop (CED) y Collect Earth Online (CEO).\nEl Collect Earth es una herramienta que permite la recopilación de datos a través del programa Google Earth principalmente. Gracias a capas base de imágenes satelitales como Google Earth, Bing Maps, Google Earth Engine, entre otros, el usuario puede analizar imágenes de alta o muy alta resolución mediate la colecta de información con mallas regulares. Existen diferencias importantes entre ambos sistemas a nivel de interfaz, pero la más importante a considerar para un estudio de EVM es que el CED permite la interpretación únicamente a nivel de parcela, mientra que en el CEO se pueden obtener datos a nivel de cada uno de los puntos dentro de las parcelas. Ambas herramientas constituyen software libre."
+    "section": "Herramientas a utilizar",
+    "text": "Herramientas a utilizar\nEsto se refiere al sistema computacional que se utilizará para la interpretación de las parcelas. En el marco del SIMOCUTE se han sugerido dos herramientas para realizar este trabajo, que serían el Collect Earth Desktop (CED) y Collect Earth Online (CEO).\nEl Collect Earth es una herramienta que permite la recopilación de datos a través del programa Google Earth principalmente. Gracias a capas base de imágenes satelitales como Google Earth, Bing Maps, Google Earth Engine, entre otros, el usuario puede analizar imágenes de alta o muy alta resolución mediate la colecta de información con mallas regulares. Existen diferencias importantes entre ambos sistemas a nivel de interfaz, pero la más importante a considerar para un estudio de EVM es que el CED permite la interpretación únicamente a nivel de parcela, mientra que en el CEO se pueden obtener datos a nivel de cada uno de los puntos dentro de las parcelas. Ambas herramientas constituyen software libre."
   },
   {
     "objectID": "evm/posts/componente-02.html#sistema-de-clasificación",
     "href": "evm/posts/componente-02.html#sistema-de-clasificación",
     "title": "Definición del marco metodológico del estudio",
-    "section": "3. Sistema de clasificación",
-    "text": "3. Sistema de clasificación\nDesde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y Cobertura de la Tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento “Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2,0 (https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf).\n\n\n\nSistema de clasificación"
+    "section": "Sistema de clasificación",
+    "text": "Sistema de clasificación\nDesde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y Cobertura de la Tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento “Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2,0 (https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf).\n\n\n\nSistema de clasificación"
   },
   {
     "objectID": "evm/posts/componente-02.html#nivel-de-la-malla-de-puntos",
     "href": "evm/posts/componente-02.html#nivel-de-la-malla-de-puntos",
     "title": "Definición del marco metodológico del estudio",
-    "section": "4. Nivel de la malla de puntos",
-    "text": "4. Nivel de la malla de puntos\nLa malla de puntos oficial del SIMOCUTE es la Malla Nivel 1 que tiene 10 600 puntos (cada punto equivale a una parcela). Para algunas escalas más detalladas, ámbitos locales y regionales, así como cambios de uso más pequeños es necesario implementar una malla anidada densificada de Nivel 2 o incluso 3, las cuales pueden solicitarse al SIMOCUTE.\n\n\n\nMalla de puntos"
+    "section": "Nivel de la malla de puntos",
+    "text": "Nivel de la malla de puntos\nLa malla de puntos oficial del SIMOCUTE es la Malla Nivel 1 que tiene 10 600 puntos (cada punto equivale a una parcela). Para algunas escalas más detalladas, ámbitos locales y regionales, así como cambios de uso más pequeños es necesario implementar una malla anidada densificada de Nivel 2 o incluso 3, las cuales pueden solicitarse al SIMOCUTE.\n\n\n\nMalla de puntos"
   },
   {
     "objectID": "evm/posts/componente-02.html#fuente-de-las-imágenes",
     "href": "evm/posts/componente-02.html#fuente-de-las-imágenes",
     "title": "Definición del marco metodológico del estudio",
-    "section": "5. Fuente de las imágenes",
-    "text": "5. Fuente de las imágenes\nUn estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.\n\n\n\nFuente de las imágenes"
+    "section": "Fuente de las imágenes",
+    "text": "Fuente de las imágenes\nUn estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.\n\n\n\nFuente de las imágenes"
   },
   {
     "objectID": "sesiones/sesiones.html",

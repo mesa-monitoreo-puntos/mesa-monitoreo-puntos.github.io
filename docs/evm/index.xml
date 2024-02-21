@@ -189,7 +189,7 @@
 
 <p>Este componente corresponde con la definición de lineamientos técnicos que debe seguir un estudio de EVM, a saber, el diseño de muestreo, las herramientas a utilizar, el sistema de clasificación y su correspondiente nivel en la jerarquía a alcanzar, el nivel de la malla de puntos que requiere el estudio y la fuente primaria de las imágenes para la interpretación.</p>
 <section id="diseño-de-muestreo" class="level2">
-<h2 class="anchored" data-anchor-id="diseño-de-muestreo">1. Diseño de muestreo</h2>
+<h2 class="anchored" data-anchor-id="diseño-de-muestreo">Diseño de muestreo</h2>
 <p>Considera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se ve en la siguiente imagen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -200,12 +200,12 @@
 <p>Algunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación 5.3.1.</p>
 </section>
 <section id="herramientas-a-utilizar" class="level2">
-<h2 class="anchored" data-anchor-id="herramientas-a-utilizar">2. Herramientas a utilizar</h2>
+<h2 class="anchored" data-anchor-id="herramientas-a-utilizar">Herramientas a utilizar</h2>
 <p>Esto se refiere al sistema computacional que se utilizará para la interpretación de las parcelas. En el marco del SIMOCUTE se han sugerido dos herramientas para realizar este trabajo, que serían el Collect Earth Desktop (CED) y Collect Earth Online (CEO).</p>
 <p>El Collect Earth es una herramienta que permite la recopilación de datos a través del programa Google Earth principalmente. Gracias a capas base de imágenes satelitales como Google Earth, Bing Maps, Google Earth Engine, entre otros, el usuario puede analizar imágenes de alta o muy alta resolución mediate la colecta de información con mallas regulares. Existen diferencias importantes entre ambos sistemas a nivel de interfaz, pero la más importante a considerar para un estudio de EVM es que el CED permite la interpretación únicamente a nivel de parcela, mientra que en el CEO se pueden obtener datos a nivel de cada uno de los puntos dentro de las parcelas. Ambas herramientas constituyen software libre.</p>
 </section>
 <section id="sistema-de-clasificación" class="level2">
-<h2 class="anchored" data-anchor-id="sistema-de-clasificación">3. Sistema de clasificación</h2>
+<h2 class="anchored" data-anchor-id="sistema-de-clasificación">Sistema de clasificación</h2>
 <p>Desde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y Cobertura de la Tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento “Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2,0 (https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -215,7 +215,7 @@
 </div>
 </section>
 <section id="nivel-de-la-malla-de-puntos" class="level2">
-<h2 class="anchored" data-anchor-id="nivel-de-la-malla-de-puntos">4. Nivel de la malla de puntos</h2>
+<h2 class="anchored" data-anchor-id="nivel-de-la-malla-de-puntos">Nivel de la malla de puntos</h2>
 <p>La malla de puntos oficial del SIMOCUTE es la Malla Nivel 1 que tiene 10 600 puntos (cada punto equivale a una parcela). Para algunas escalas más detalladas, ámbitos locales y regionales, así como cambios de uso más pequeños es necesario implementar una malla anidada densificada de Nivel 2 o incluso 3, las cuales pueden solicitarse al SIMOCUTE.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -225,7 +225,7 @@
 </div>
 </section>
 <section id="fuente-de-las-imágenes" class="level2">
-<h2 class="anchored" data-anchor-id="fuente-de-las-imágenes">5. Fuente de las imágenes</h2>
+<h2 class="anchored" data-anchor-id="fuente-de-las-imágenes">Fuente de las imágenes</h2>
 <p>Un estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -259,19 +259,19 @@
 </figure>
 </div>
 <section id="escala-espacial-y-temporal" class="level2">
-<h2 class="anchored" data-anchor-id="escala-espacial-y-temporal">1. Escala espacial y temporal</h2>
+<h2 class="anchored" data-anchor-id="escala-espacial-y-temporal">Escala espacial y temporal</h2>
 <p>Se refiere al área geográfica que se requiere evaluar, la cual puede ser local, por ejemplo, un cantón, regional. por ejemplo: provincias, regiones climáticas, regiones productivas, entre otros, o nacional. Cada una de estas escalas requiere más tiempo y recursos según se vaya desde la escala local a una nacional; además, el uso de escalas más detalladas podría implicar la utilización de niveles de malla de puntos más densificados. La escala temporal hace referencia al periodo de estudio, puesto que el propósito principal de la EVM es obtener información sobre el estado actual del territorio y los cambios que ocurren en él, razón por la cual, se define un T1 que corresponde con el año 1 de evaluación y T2 que sería el año 2 y se define según el periodo para el que se requiere información de cambio.</p>
 </section>
 <section id="objetivos" class="level2">
-<h2 class="anchored" data-anchor-id="objetivos">2. Objetivos</h2>
+<h2 class="anchored" data-anchor-id="objetivos">Objetivos</h2>
 <p>Es importante tener bien clara la necesidad para poder construir objetivos pertinentes que puedan ser cumplidos en el tiempo apropiado.</p>
 </section>
 <section id="alcance" class="level2">
-<h2 class="anchored" data-anchor-id="alcance">3. Alcance</h2>
+<h2 class="anchored" data-anchor-id="alcance">Alcance</h2>
 <p>En este caso, se hace referencia a aspectos básicos como el nivel de detalle de la información que se requiere recopilar con el estudio, la incertidumbre permitida y las posibles fuentes de error del estudio. Además, en esta etapa se define lo que se requiere medir, es decir, si se requiere interpretar solo el uso de la tierra o, es pertinente también tener información de cobertura y/o ecosistemas. Las definiciones de estas variables se darán más adelante.</p>
 </section>
 <section id="tiempo-del-estudio" class="level2">
-<h2 class="anchored" data-anchor-id="tiempo-del-estudio">4. Tiempo del estudio</h2>
+<h2 class="anchored" data-anchor-id="tiempo-del-estudio">Tiempo del estudio</h2>
 <p>En esta sección se debe definir el año T1 y el T2, que corresponden con el primer y el último año de medición. Las diferencias entre ambos constituirán el cambio en el uso, cobertura de la tierra o ecosistema, según se esté midiendo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -281,7 +281,7 @@
 </div>
 </section>
 <section id="forma-de-trabajo" class="level2">
-<h2 class="anchored" data-anchor-id="forma-de-trabajo">5. Forma de trabajo</h2>
+<h2 class="anchored" data-anchor-id="forma-de-trabajo">Forma de trabajo</h2>
 <p>En última instancia, es importante definir la manera más apropiada para llevar a cabo la EVM, en lo referente a la organización del equipo, el abordaje de cada etapa o componente metodológico, la asignación del trabajo a cada involucrado, sean individuos contratados, empresas, instituciones o cualquier otro. Por ejemplo, pueden crearse grupos de trabajo para cada componente: uno que se enfoque en los primeros componentes, los cuales desarrollan el marco metodológico sobre el que se realizará la evaluación; otro que se dedique a la interpretación, que podría estar organizado en subgrupos con un asesor o supervisor para cada uno, el cual fungiría como guía de los intérpretes, al tiempo que realizan el control de la calidad; posteriormente, se puede formar un equipo a cargo del análisis de los datos resultantes de la interpretación. Este último grupo realizaría también otra parte del análisis de calidad de los datos y la evaluación de la incertidumbre. Finalmente, se puede tener un grupo interno o externo que realizaría la validación de los resultados.</p>
 
 
