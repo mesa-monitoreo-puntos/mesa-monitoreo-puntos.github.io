@@ -1,0 +1,35 @@
+---
+title: "Definición del marco metodológico"
+subtitle: "Componente 2 de la EVM"
+image: ../../img/evm-componente-02.png
+toc: true
+---
+
+Este componente corresponde con la definición de lineamientos técnicos que debe seguir un estudio de EVM, a saber, el diseño de muestreo, las herramientas a utilizar, el sistema de clasificación y su correspondiente nivel en la jerarquía a alcanzar, el nivel de la malla de puntos que requiere el estudio y la fuente primaria de las imágenes para la interpretación. 
+
+## Diseño de muestreo
+Considera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se ve en la siguiente imagen. 
+
+![](../../img/diseno-muestreo.jpg){.lightbox fig-alt="Diseño del muestreo" fig-align="center"}
+
+Algunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación 5.3.1. 
+
+## Herramientas a utilizar
+Esto se refiere al sistema computacional que se utilizará para la interpretación de las parcelas. En el marco del SIMOCUTE se han sugerido dos herramientas para realizar este trabajo, que serían el Collect Earth Desktop (CED) y Collect Earth Online (CEO). 
+
+El Collect Earth es una herramienta que permite la recopilación de datos a través del programa Google Earth principalmente. Gracias a capas base de imágenes satelitales como Google Earth, Bing Maps, Google Earth Engine, entre otros, el usuario puede analizar imágenes de alta o muy alta resolución mediate la colecta de información con mallas regulares. Existen diferencias importantes entre ambos sistemas a nivel de interfaz, pero la más importante a considerar para un estudio de EVM es que el CED permite la interpretación únicamente a nivel de parcela, mientra que en el CEO se pueden obtener datos a nivel de cada uno de los puntos dentro de las parcelas. Ambas herramientas constituyen software libre.
+
+## Sistema de clasificación
+Desde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y Cobertura de la Tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento "Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2,0 (https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf).
+
+![](../../img/sistema-clasificacion.jpg){.lightbox fig-alt="Sistema de clasificación" fig-align="center"}
+
+## Nivel de la malla de puntos
+La malla de puntos oficial del SIMOCUTE es la Malla Nivel 1 que tiene 10 600 puntos (cada punto equivale a una parcela). Para algunas escalas más detalladas, ámbitos locales y regionales, así como cambios de uso más pequeños es necesario implementar una malla anidada densificada de Nivel 2 o incluso 3, las cuales pueden solicitarse al SIMOCUTE.
+
+![](../../img/malla-puntos.jpg){.lightbox fig-alt="Malla de puntos" fig-align="center"}
+
+## Fuente de las imágenes
+Un estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.
+
+![](../../img/fuente-imagenes.png){.lightbox fig-alt="Fuente de las imágenes" fig-align="center"}

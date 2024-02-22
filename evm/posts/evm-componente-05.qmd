@@ -1,0 +1,14 @@
+---
+title: "Interpretación de las parcelas"
+subtitle: "Componente 5 de la EVM"
+image: ../../img/evm-componente-05.png
+toc: true
+---
+
+Una vez que las etapas anteriores están definidas y el proyecto ha sido creado en Collect Earth, se pueda iniciar con el levantamiento de la información de uso, cobertura y cambios. Este proceso implica poner en práctica toda la preparación anterior, es decir, los protocolos y controles previamente definidos. 
+
+Se sugiere realizar un taller inicial con todos los intérpretes sobre el sistema de clasificación a utilizar, la forma en que se realizará la interpretación, las buenas prácticas y definiciones importantes a considerar en la interpretación. Posteriormente, las parcelas se dividen entre los intérpretes o bien, se le indica un número de parcelas que cada uno debe interpretar. Sin embargo, para poder realizar los chequeos ciegos o de replicabilidad es importante definir las parcelas que cada persona debe analizar. Debe indicarse que cada parcela debe tener un ID que permite volver a ella en caso de dudas o corrección de errores. 
+
+En estudios anteriores se ha realizado la interpretación por medio de talleres, es decir, se cita a todos los intérpretes en un tiempo y lugar específico para que todos trabajen juntos y puedan tener acceso más fácil a los supervisores en caso de parcelas confusas. Dependiendo de la cantidad de intérpretes y de parcelas, esto puede tomar varios días, o incluso varias semanas, por lo que los talleres pueden ocurrir al inicio de esta etapa para asegurar que el proceso se está llevando a cabo correctamente.
+
+![](../../img/interpretacion-parcelas.jpg){fig-alt="Interpretación de las parcelas" fig-align="center"}

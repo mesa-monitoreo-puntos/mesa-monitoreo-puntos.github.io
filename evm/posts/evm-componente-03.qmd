@@ -1,0 +1,16 @@
+---
+title: "Creación del proyecto"
+subtitle: "Componente 3 de la EVM"
+image: ../../img/evm-componente-03.png
+toc: true
+---
+
+Una vez definido el marco metodológico de trabajo se procede a elaborar el proyecto para la interpretación en Collect Earth. Esto corresponde con el diseño de las plantillas con cada una de las parcelas y las consultas a realizar sobre el uso y/o la cobertura a utilizar en los años T1 y T2. Las plantillas son elaboradas por una o varias personas encargadas, quienes desarrollarán formularios que completarán los intérpretes para cada variable a medir (uso y/o cobertura) y cada año de medición.
+
+![](../../img/collect-earth-01.jpg){.lightbox fig-alt="Collect Earth" fig-align="center" width=80%}
+
+![](../../img/collect-earth-02.jpg){.lightbox fig-alt="Collect Earth" fig-align="center" width=80%}
+
+Los pasos para la construcción del proyecto se puede encontrar el siguiente documento 5.5.1 "CEO_Tutorial_Nov_2020.pdf", el cual incluye desde la creación de una cuenta para trabajar con la plataforma Collect Earth Online, la visualización de un proyecto como práctica para un usuario nuevo, la integración y acceso a los recursos geoespaciales mediante las imàgenes de satélite que maneja la plataforma, el proceso de interpretación de la malla y la parcela a evaluar por el intérprete, la creación de una institución (la organización a inscribirse) y la construcción de proyectos, entre otros temas. 
+
+Por otro lado, puesto que estas herramientas están en constante mejora, se les invita a revisar los recursos de cada programa en los siguientes enlaces: https://openforis.org/materials/, y  https://www.collect.earth/about/

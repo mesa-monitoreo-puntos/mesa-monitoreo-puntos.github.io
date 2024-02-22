@@ -4,6 +4,8 @@ title: Recursos
 search: false 
 ---
 
-## Artículos
+## SIMOCUTE
+[SIMOCUTE (sitio oficial)](https://simocute.go.cr/)  
 
-## Diapositivas
+## FIESTA
+[Forest Inventory Estimation and Analysis (FIESTA) (sitio oficial)](https://usdaforestservice.github.io/FIESTA)

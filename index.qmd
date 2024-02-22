@@ -13,8 +13,8 @@ listing:
     contents: 
     - /evm
     - "!index.qmd"
-    fields: ["image", "subtitle"]
-    sort: "date"
+    fields: ["image"]
+    sort: "subtitle"
     type: grid
     categories: false
     sort-ui: false
@@ -110,7 +110,7 @@ Para la implementación de un sistema de monitoreo visual de puntos, la Mesa se 
 El diseño de la EVM ha estado a cargo de un grupo de expertos de las instituciones que conforman la Mesa de Monitoreo por Puntos, con la guía del Servicio Forestal de los Estados Unidos (USFS) y el programa SilvaCarbon.
 
 ### Componentes
-La EVM consta de nueve componentes esenciales.
+La EVM consta de ocho componentes esenciales.
 
 ::: {#evm}
 :::
