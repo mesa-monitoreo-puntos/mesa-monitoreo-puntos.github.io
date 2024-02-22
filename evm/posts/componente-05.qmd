@@ -1,5 +1,5 @@
 ---
-title: "Desarrollo de la etapa de interpretación de las parcelas"
+title: "Interpretación de las parcelas"
 subtitle: "Protocolos de interpretación y sistema de clasificación, control de la calidad"
 date: 2023-01-05
 image: ../../img/componente-05.png
@@ -12,4 +12,4 @@ Se sugiere realizar un taller inicial con todos los intérpretes sobre el sistem
 
 En estudios anteriores se ha realizado la interpretación por medio de talleres, es decir, se cita a todos los intérpretes en un tiempo y lugar específico para que todos trabajen juntos y puedan tener acceso más fácil a los supervisores en caso de parcelas confusas. Dependiendo de la cantidad de intérpretes y de parcelas, esto puede tomar varios días, o incluso varias semanas, por lo que los talleres pueden ocurrir al inicio de esta etapa para asegurar que el proceso se está llevando a cabo correctamente.
 
-![Interpretación de las parcelas](../../img/interpretacion-parcelas.png){fig-alt="Interpretación de las parcelas" fig-align="center" width=60%}
+![](../../img/interpretacion-parcelas.jpg){fig-alt="Interpretación de las parcelas" fig-align="center"}

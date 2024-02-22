@@ -12,7 +12,7 @@ Este proceso es un componente transversal en todo el estudio de EVM, por lo que 
 
 Entre los controles iniciales se recomienda: 
 
-![Control y aseguramiento de la calidad](../../img/control-aseguramiento-calidad.png){fig-alt="Control y aseguramiento de la calidad" fig-align="center" width=50%}
+![](../../img/control-aseguramiento-calidad.png){.lightbox fig-alt="Control y aseguramiento de la calidad" fig-align="center"}
 
 Por otro lado, en estudios previos se han implementado 3 tipos de controles asociados al desarrollo propio de la interpretación (Presentación 5.6.1):  
 

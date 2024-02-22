@@ -27,7 +27,14 @@
 
 
 
-<p>La validación de las estimaciones realizadas mediante esta metodología constituye una de las fases más importantes dentro del proceso de elaboración de un análisis de EVM. Esta validación pretende dar un nivel de confianza a los receptores de la información.</p>
+<p>La validación de las estimaciones realizadas mediante esta metodología constituye una de las fases más importantes dentro del proceso de elaboración de un análisis de EVM. Este proceso tiene como objetivo dar un nivel alto de confianza a los receptores de la información. Para lograr dicho objetivo, la validación debe ser hecha por un equipo externo de expertos que garanticen la transparencia del proceso.</p>
+<p>Por otro lado, se puede realizar un análisis interno siguiendo estas recomendaciones:</p>
+<ol type="1">
+<li>Análisis comparativo con datos de campo de otros proyectos o levantados por instituciones para objetivos específicos.</li>
+<li>Se pueden seleccionar parcelas aleatoriamente para ser revisados por profesionales de instituciones con injerencia en el campo y por tanto conocen el uso y cobertura que se desarrolla en el territorio.</li>
+</ol>
+<p>Este proceso de validación debe cumplir con las necesidades que llevaron al estudio de EVM y los requerimientos de entes nacionales y/o internacionales acerca de los valores máximos de incertidumbre permitidos. Se puede mencionar como ejemplo los datos de actividad sobre uso y cobertura de la tierra que se miden para elaborar el Inventario Nacional de Gases de Efecto Invernadero (INGEI), para el cual se requiere que el error no sea mayor a 30% y cada vez debe hacerse un esfuerzo para disminuir la incertidumbre.</p>
+<p>Una vez que los resultados han sido validados, se puede proceder a elaborar el informe con los resultados. Asimismo, se debería detallar el marco metodológico utilizado, las estadísticas del análisis de control y aseguramiento de la calidad y del proceso de validación.</p>
 
 
 
@@ -45,7 +52,23 @@
 
 
 
-<p>La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis y obtener los valores de uso y cobertura, así como de los cambios ocurridos en el periodo de análisis, se ha construido un algoritmo de análisis en la plataforma RStudio, denominada como “FIESTA”.</p>
+<p>La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis, reducir el tiempo requerido para el mismo y, en consecuencia, los costos asociados, se ha implementado el algoritmo de análisis “FIESTA” (Forest Inventory Estimation and Analysis), elaborado por el Servicio Forestal de los Estados Unidos y adaptado para su uso en Costa Rica, en el marco del SIMOCUTE (bibliografía).</p>
+<p>FIESTA ha sido desarrollado en un paquete del lenguaje de programación R para procesar los datos, sistematizar los resultados en tablas y gráficos que pueden ser exportados para generar los informes finales del estudio de EVM, y, al mismo tiempo, calcular los errores y medir la incertidumbre asociada. En el enlace adjunto se pueden ver las indicaciones para la aplicación del algoritmo (enlace al documento), es importante indicar que, el archivo en formato *.csv correspondiente a la salida de Collect Earth debe ser ajustado para que el algoritmo pueda procesarlo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../img/grafico-sankey.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mesa-monitoreo-puntos.github.io/img/grafico-sankey.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Gráfico de Sankey"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../img/tabla.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mesa-monitoreo-puntos.github.io/img/tabla.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Tabla"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../img/grafico-barras.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://mesa-monitoreo-puntos.github.io/img/grafico-barras.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Gráfico de barras"></a></p>
+</figure>
+</div>
 
 
 
@@ -82,6 +105,16 @@
 
 <p>Una vez que la etapa de interpretación ha finalizado, se debe realizar el análisis de la calidad de la información utilizando para ello los resultados de los chequeos de control definidos en las etapas anteriores. El propósito de esta etapa es la de asegurar la calidad y, en caso de ser necesario, aplicar las medidas necesarias e interpretar nuevamente lo que requiera revisión.</p>
 <p>Por otro lado, en esta etapa se realiza una revisión de los datos. La base de datos con toda la información detallada de la interpretación se exporta desde Collect Earth y se hacen los ajustes de forma necesarios (nombres de encabezados, uso de puntos o comas, entre otros) a fin de que sea leída en el algoritmo FIESTA, sin problemas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../img/interpretacion-parcelas-01.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mesa-monitoreo-puntos.github.io/img/interpretacion-parcelas-01.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Control y aseguramiento de la calidad"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../img/interpretacion-parcelas-02.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mesa-monitoreo-puntos.github.io/img/interpretacion-parcelas-02.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Control y aseguramiento de la calidad"></a></p>
+</figure>
+</div>
 
 
 
@@ -91,7 +124,7 @@
   <media:content url="https://mesa-monitoreo-puntos.github.io/img/componente-06.png" medium="image" type="image/png" height="80" width="144"/>
 </item>
 <item>
-  <title>Desarrollo de la etapa de interpretación de las parcelas</title>
+  <title>Interpretación de las parcelas</title>
   <link>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-05.html</link>
   <description><![CDATA[ 
 
@@ -104,8 +137,7 @@
 <p>En estudios anteriores se ha realizado la interpretación por medio de talleres, es decir, se cita a todos los intérpretes en un tiempo y lugar específico para que todos trabajen juntos y puedan tener acceso más fácil a los supervisores en caso de parcelas confusas. Dependiendo de la cantidad de intérpretes y de parcelas, esto puede tomar varios días, o incluso varias semanas, por lo que los talleres pueden ocurrir al inicio de esta etapa para asegurar que el proceso se está llevando a cabo correctamente.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/interpretacion-parcelas.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Interpretación de las parcelas"></p>
-<figcaption>Interpretación de las parcelas</figcaption>
+<p><img src="https://mesa-monitoreo-puntos.github.io/img/interpretacion-parcelas.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Interpretación de las parcelas"></p>
 </figure>
 </div>
 
@@ -130,8 +162,7 @@
 <p>Entre los controles iniciales se recomienda:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/control-aseguramiento-calidad.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="Control y aseguramiento de la calidad"></p>
-<figcaption>Control y aseguramiento de la calidad</figcaption>
+<p><a href="../../img/control-aseguramiento-calidad.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mesa-monitoreo-puntos.github.io/img/control-aseguramiento-calidad.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Control y aseguramiento de la calidad"></a></p>
 </figure>
 </div>
 <p>Por otro lado, en estudios previos se han implementado 3 tipos de controles asociados al desarrollo propio de la interpretación (Presentación 5.6.1):</p>
@@ -156,16 +187,15 @@
 
 
 
-<p>Una vez definido el marco metodológico de trabajo se procede a elaborar el proyecto para la interpretación en Collect Earth (. Esto corresponde con el diseño de las plantillas con cada una de las parcelas y las consultas a realizar sobre el uso y/o la cobertura a utilizar en los años T1 y T2. Las plantillas son elaboradas por una o varias personas encargadas, quienes desarrollarán formularios que completarán los intérpretes para cada variable a medir (uso y/o cobertura) y cada año de medición.</p>
+<p>Una vez definido el marco metodológico de trabajo se procede a elaborar el proyecto para la interpretación en Collect Earth. Esto corresponde con el diseño de las plantillas con cada una de las parcelas y las consultas a realizar sobre el uso y/o la cobertura a utilizar en los años T1 y T2. Las plantillas son elaboradas por una o varias personas encargadas, quienes desarrollarán formularios que completarán los intérpretes para cada variable a medir (uso y/o cobertura) y cada año de medición.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/collect-earth-01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Collect Earth"></p>
+<p><a href="../../img/collect-earth-01.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mesa-monitoreo-puntos.github.io/img/collect-earth-01.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Collect Earth"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/collect-earth-02.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Collect Earth"></p>
-<figcaption>Collect Earth</figcaption>
+<p><a href="../../img/collect-earth-02.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mesa-monitoreo-puntos.github.io/img/collect-earth-02.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Collect Earth"></a></p>
 </figure>
 </div>
 <p>Los pasos para la construcción del proyecto se puede encontrar el siguiente documento 5.5.1 “CEO_Tutorial_Nov_2020.pdf”, el cual incluye desde la creación de una cuenta para trabajar con la plataforma Collect Earth Online, la visualización de un proyecto como práctica para un usuario nuevo, la integración y acceso a los recursos geoespaciales mediante las imàgenes de satélite que maneja la plataforma, el proceso de interpretación de la malla y la parcela a evaluar por el intérprete, la creación de una institución (la organización a inscribirse) y la construcción de proyectos, entre otros temas.</p>
@@ -193,8 +223,7 @@
 <p>Considera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se ve en la siguiente imagen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/diseno-muestreo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Diseño del muestreo"></p>
-<figcaption>Diseño del muestreo</figcaption>
+<p><a href="../../img/diseno-muestreo.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mesa-monitoreo-puntos.github.io/img/diseno-muestreo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Diseño del muestreo"></a></p>
 </figure>
 </div>
 <p>Algunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación 5.3.1.</p>
@@ -209,8 +238,7 @@
 <p>Desde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y Cobertura de la Tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento “Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2,0 (https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/sistema-clasificacion.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Sistema de clasificación"></p>
-<figcaption>Sistema de clasificación</figcaption>
+<p><a href="../../img/sistema-clasificacion.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://mesa-monitoreo-puntos.github.io/img/sistema-clasificacion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Sistema de clasificación"></a></p>
 </figure>
 </div>
 </section>
@@ -219,8 +247,7 @@
 <p>La malla de puntos oficial del SIMOCUTE es la Malla Nivel 1 que tiene 10 600 puntos (cada punto equivale a una parcela). Para algunas escalas más detalladas, ámbitos locales y regionales, así como cambios de uso más pequeños es necesario implementar una malla anidada densificada de Nivel 2 o incluso 3, las cuales pueden solicitarse al SIMOCUTE.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/malla-puntos.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Malla de puntos"></p>
-<figcaption>Malla de puntos</figcaption>
+<p><a href="../../img/malla-puntos.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://mesa-monitoreo-puntos.github.io/img/malla-puntos.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Malla de puntos"></a></p>
 </figure>
 </div>
 </section>
@@ -229,8 +256,7 @@
 <p>Un estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/fuente-imagenes.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Fuente de las imágenes"></p>
-<figcaption>Fuente de las imágenes</figcaption>
+<p><a href="../../img/fuente-imagenes.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://mesa-monitoreo-puntos.github.io/img/fuente-imagenes.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Fuente de las imágenes"></a></p>
 </figure>
 </div>
 
@@ -254,8 +280,7 @@
 <p>Una vez que se han establecido la necesidad y los recursos disponibles para el estudio de EVM, se puede iniciar con la definición del marco metodológico sobre el que se desarrollará el ejercicio (Ver ejemplo en el adjunto: Perfil del proyecto para el Ejercicio de Monitoreo_version_2.1.pdf). Este marco metodológico incluye la escala temporal y espacial acorde con la información requerida, la construcción de los objetivos general y específicos, el alcance del estudio, el tiempo y agenda seguida para llevar a cabo cada fase del proceso y la forma de trabajo adoptada por el equipo. Cada uno de estos puntos se detalla a continuación.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/definicion-marco-general-puntos.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Definición del marco general del estudio"></p>
-<figcaption>Definición del marco general del estudio</figcaption>
+<p><a href="../../img/definicion-marco-general-puntos.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://mesa-monitoreo-puntos.github.io/img/definicion-marco-general-puntos.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Definición del marco general del estudio"></a></p>
 </figure>
 </div>
 <section id="escala-espacial-y-temporal" class="level2">
@@ -275,7 +300,7 @@
 <p>En esta sección se debe definir el año T1 y el T2, que corresponden con el primer y el último año de medición. Las diferencias entre ambos constituirán el cambio en el uso, cobertura de la tierra o ecosistema, según se esté midiendo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://mesa-monitoreo-puntos.github.io/img/parcela-t1-t2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"></p>
+<p><a href="../../img/parcela-t1-t2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"><img src="https://mesa-monitoreo-puntos.github.io/img/parcela-t1-t2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"></a></p>
 <figcaption>Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)</figcaption>
 </figure>
 </div>
@@ -283,6 +308,7 @@
 <section id="forma-de-trabajo" class="level2">
 <h2 class="anchored" data-anchor-id="forma-de-trabajo">Forma de trabajo</h2>
 <p>En última instancia, es importante definir la manera más apropiada para llevar a cabo la EVM, en lo referente a la organización del equipo, el abordaje de cada etapa o componente metodológico, la asignación del trabajo a cada involucrado, sean individuos contratados, empresas, instituciones o cualquier otro. Por ejemplo, pueden crearse grupos de trabajo para cada componente: uno que se enfoque en los primeros componentes, los cuales desarrollan el marco metodológico sobre el que se realizará la evaluación; otro que se dedique a la interpretación, que podría estar organizado en subgrupos con un asesor o supervisor para cada uno, el cual fungiría como guía de los intérpretes, al tiempo que realizan el control de la calidad; posteriormente, se puede formar un equipo a cargo del análisis de los datos resultantes de la interpretación. Este último grupo realizaría también otra parte del análisis de calidad de los datos y la evaluación de la incertidumbre. Finalmente, se puede tener un grupo interno o externo que realizaría la validación de los resultados.</p>
+
 
 
 </section>

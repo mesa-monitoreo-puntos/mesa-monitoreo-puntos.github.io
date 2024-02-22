@@ -6,4 +6,13 @@ image: ../../img/componente-08.png
 toc: true
 ---
 
-La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis y obtener los valores de uso y cobertura, así como de los cambios ocurridos en el periodo de análisis, se ha construido un algoritmo de análisis en la plataforma RStudio, denominada como “FIESTA”.
+La base de datos obtenida de Collect Earth contiene una gran cantidad datos, por lo que, para facilitar su análisis, reducir el tiempo requerido para el mismo y, en consecuencia, los costos asociados, se ha implementado el algoritmo de análisis “FIESTA” (Forest Inventory Estimation and Analysis), elaborado por el Servicio Forestal de los Estados Unidos y adaptado para su uso en Costa Rica, en el marco del SIMOCUTE (bibliografía). 
+
+FIESTA ha sido desarrollado en un paquete del lenguaje de programación R para procesar los datos, sistematizar los resultados en tablas y gráficos que pueden ser exportados para generar los informes finales del estudio de EVM, y, al mismo tiempo, calcular los errores y medir la incertidumbre asociada. 
+En el enlace adjunto se pueden ver las indicaciones para la aplicación del algoritmo (enlace al documento), es importante indicar que, el archivo en formato *.csv correspondiente a la salida de Collect Earth debe ser ajustado para que el algoritmo pueda procesarlo. 
+
+![](../../img/grafico-sankey.jpg){.lightbox fig-alt="Gráfico de Sankey" fig-align="center"}
+
+![](../../img/tabla.jpg){.lightbox fig-alt="Tabla" fig-align="center"}
+
+![](../../img/grafico-barras.jpg){.lightbox fig-alt="Gráfico de barras" fig-align="center"}

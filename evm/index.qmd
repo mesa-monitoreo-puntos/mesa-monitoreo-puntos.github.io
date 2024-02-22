@@ -9,7 +9,7 @@ listing:
   fields: ["image", "title", "subtitle"]
   sort: "date"
   type: grid
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
   page-size: 30
@@ -29,6 +29,3 @@ En este sentido, este primer paso debe responder a las preguntas: ¿Cuál el pro
 
 ## Componentes
 Es esta sección se presentan los pasos a seguir, de acuerdo con cada componente de la metodología, para implementar un proyecto de EVM.
-
-![Flujo de trabajo de la EVM](../img/flujo-trabajo-evm.png){fig-alt="Flujo de trabajo de la EVM" fig-align="center" width=80%}
-

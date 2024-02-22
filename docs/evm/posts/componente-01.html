@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -158,8 +161,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Una vez que se han establecido la necesidad y los recursos disponibles para el estudio de EVM, se puede iniciar con la definición del marco metodológico sobre el que se desarrollará el ejercicio (Ver ejemplo en el adjunto: Perfil del proyecto para el Ejercicio de Monitoreo_version_2.1.pdf). Este marco metodológico incluye la escala temporal y espacial acorde con la información requerida, la construcción de los objetivos general y específicos, el alcance del estudio, el tiempo y agenda seguida para llevar a cabo cada fase del proceso y la forma de trabajo adoptada por el equipo. Cada uno de estos puntos se detalla a continuación.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../img/definicion-marco-general-puntos.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Definición del marco general del estudio"></p>
-<figcaption>Definición del marco general del estudio</figcaption>
+<p><a href="../../img/definicion-marco-general-puntos.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../img/definicion-marco-general-puntos.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Definición del marco general del estudio"></a></p>
 </figure>
 </div>
 <section id="escala-espacial-y-temporal" class="level2">
@@ -179,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <p>En esta sección se debe definir el año T1 y el T2, que corresponden con el primer y el último año de medición. Las diferencias entre ambos constituirán el cambio en el uso, cobertura de la tierra o ecosistema, según se esté midiendo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../img/parcela-t1-t2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"></p>
+<p><a href="../../img/parcela-t1-t2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"><img src="../../img/parcela-t1-t2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"></a></p>
 <figcaption>Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)</figcaption>
 </figure>
 </div>
@@ -189,6 +191,9 @@ ul.task-list li input[type="checkbox"] {
 <p>En última instancia, es importante definir la manera más apropiada para llevar a cabo la EVM, en lo referente a la organización del equipo, el abordaje de cada etapa o componente metodológico, la asignación del trabajo a cada involucrado, sean individuos contratados, empresas, instituciones o cualquier otro. Por ejemplo, pueden crearse grupos de trabajo para cada componente: uno que se enfoque en los primeros componentes, los cuales desarrollan el marco metodológico sobre el que se realizará la evaluación; otro que se dedique a la interpretación, que podría estar organizado en subgrupos con un asesor o supervisor para cada uno, el cual fungiría como guía de los intérpretes, al tiempo que realizan el control de la calidad; posteriormente, se puede formar un equipo a cargo del análisis de los datos resultantes de la interpretación. Este último grupo realizaría también otra parte del análisis de calidad de los datos y la evaluación de la incertidumbre. Finalmente, se puede tener un grupo interno o externo que realizaría la validación de los resultados.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-2">Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -580,6 +585,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

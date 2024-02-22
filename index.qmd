@@ -63,7 +63,7 @@ El SIMOCUTE está conformado por un conjunto de mesas técnicas que generan reco
 
 
 ::: {.image-container}
-![](img/sesiones-trabajo-mmpp.png){.lightbox fig-alt="Sesiones de trabajo de la Mesa de Monitoreo por Puntos" fig-align="center" width=60%}
+![](img/sesiones-trabajo-mmpp.jpg){.lightbox fig-alt="Sesiones de trabajo de la Mesa de Monitoreo por Puntos" fig-align="center"}
 :::
 
 
