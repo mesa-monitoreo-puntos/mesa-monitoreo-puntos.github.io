@@ -1,7 +1,17 @@
 ---
 pagetitle: Casos de estudio | Mesa de Monitoreo por Puntos
 title: Casos de estudio
+search: false  
+listing:
+  contents:
+  - posts
+  - "!index.qmd"
+  fields: ["image", "title", "subtitle"]
+  sort: "date"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
 ---
-
-- [SIMOCUTE - Ejercicio metodológico de interpretación de puntos de muestreo](https://mesa-monitoreo-puntos.github.io/fiesta/simocute-interpretacion.html)
-- [CATIE - Interpretación de puntos de muestreo de manglares](https://mesa-monitoreo-puntos.github.io/fiesta/catie-manglares.html)

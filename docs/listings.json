@@ -10,7 +10,9 @@
       "/evm/posts/componente-06.html",
       "/evm/posts/componente-07.html",
       "/evm/posts/componente-08.html",
-      "/evm/posts/componente-09.html"
+      "/evm/posts/componente-09.html",
+      "/evm-casos-estudio/posts/evm-caso-estudio-01.html",
+      "/evm-casos-estudio/posts/evm-caso-estudio-02.html"
     ]
   },
   {
@@ -25,6 +27,13 @@
       "/evm/posts/componente-07.html",
       "/evm/posts/componente-08.html",
       "/evm/posts/componente-09.html"
+    ]
+  },
+  {
+    "listing": "/evm-casos-estudio/index.html",
+    "items": [
+      "/evm-casos-estudio/posts/evm-caso-estudio-01.html",
+      "/evm-casos-estudio/posts/evm-caso-estudio-02.html"
     ]
   }
 ]

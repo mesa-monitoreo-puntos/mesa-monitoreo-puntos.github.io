@@ -101,6 +101,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-evm-casos-estudio .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-evm-casos-estudio'] = new List('listing-evm-casos-estudio', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -242,7 +270,7 @@ El SIMOCUTE está conformado por un conjunto de mesas técnicas que generan reco
 <p>La EVM consta de nueve componentes esenciales.</p>
 <div id="listing-evm" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1708543091435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="594">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1708548575100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="594">
 <a href="./evm/posts/componente-01.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -256,7 +284,7 @@ Escala espacial y temporal del estudio, objetivos, alcance, tiempo del estudio y
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1672639200000" data-listing-file-modified-sort="1708543133529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1672617600000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
 <a href="./evm/posts/componente-02.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -270,7 +298,7 @@ Diseño de muestreo, herramientas, sistema de clasificación, nivel de la malla 
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1672725600000" data-listing-file-modified-sort="1707960200723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1672704000000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
 <a href="./evm/posts/componente-03.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -284,7 +312,7 @@ Uso del Collect Earth, creación de las plantillas y del espacio de trabajo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1672812000000" data-listing-file-modified-sort="1707964653513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1672790400000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
 <a href="./evm/posts/componente-04.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -298,7 +326,7 @@ Chequeos: cold, hot and blind checks
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1672898400000" data-listing-file-modified-sort="1707967491795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1672876800000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
 <a href="./evm/posts/componente-05.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -312,7 +340,7 @@ Protocolos de interpretación y sistema de clasificación, control de la calidad
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1672984800000" data-listing-file-modified-sort="1707968365378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1672963200000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
 <a href="./evm/posts/componente-06.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -326,7 +354,7 @@ Calidad de la interpretación basada en los chequeos de QA/QC
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1673071200000" data-listing-file-modified-sort="1707968591985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1673049600000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./evm/posts/componente-07.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -340,7 +368,7 @@ Revisión y depuración de la base de datos, preparación para FIESTA
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1673157600000" data-listing-file-modified-sort="1707968687323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1673136000000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
 <a href="./evm/posts/componente-08.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -354,7 +382,7 @@ FIESTA, cambio e incertidumbre
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1673244000000" data-listing-file-modified-sort="1707968798680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1673222400000" data-listing-file-modified-sort="1708548575116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
 <a href="./evm/posts/componente-09.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -380,13 +408,43 @@ No hay resultados
 <p><a href="./evm-casos-estudio/index.html"></a></p><a href="./evm-casos-estudio/index.html">
 <h2 id="casos-de-estudio">Casos de estudio</h2>
 </a><p><a href="./evm-casos-estudio/index.html"></a></p>
-<ul>
-<li><a href="https://mesa-monitoreo-puntos.github.io/fiesta/simocute-interpretacion.html">SIMOCUTE - Ejercicio metodológico de interpretación de puntos de muestreo</a></li>
-<li><a href="https://mesa-monitoreo-puntos.github.io/fiesta/catie-manglares.html">CATIE - Interpretación de puntos de muestreo de manglares</a></li>
-</ul>
+<div id="listing-evm-casos-estudio" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1708562105848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="38" data-listing-word-count-sort="7407">
+<a href="./evm-casos-estudio/posts/evm-caso-estudio-01.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/evm-caso-estudio-01.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Caso 01
+</h5>
 </div>
 </div>
-<p>:::</p>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1708563049665" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4080">
+<a href="./evm-casos-estudio/posts/evm-caso-estudio-02.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/evm-caso-estudio-02.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Caso 02
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</div>
+</div>
 <div class="footer-text">
 <div class="footer-container black-background">
 <div class="footer-block">
@@ -791,7 +849,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

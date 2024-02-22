@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/index.html</loc>
-    <lastmod>2024-02-20T05:15:34.278Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-09.html</loc>
-    <lastmod>2024-02-15T03:46:38.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-05.html</loc>
-    <lastmod>2024-02-15T03:24:51.795Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-01.html</loc>
-    <lastmod>2024-02-21T19:18:11.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-06.html</loc>
-    <lastmod>2024-02-15T03:39:25.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-02.html</loc>
-    <lastmod>2024-02-21T19:18:53.529Z</lastmod>
-  </url>
-  <url>
     <loc>https://mesa-monitoreo-puntos.github.io/sesiones/sesiones.html</loc>
-    <lastmod>2023-05-09T21:57:09.095Z</lastmod>
+    <lastmod>2024-02-21T20:49:35.163Z</lastmod>
   </url>
   <url>
     <loc>https://mesa-monitoreo-puntos.github.io/index.html</loc>
-    <lastmod>2024-02-20T05:35:39.783Z</lastmod>
+    <lastmod>2024-02-21T22:48:53.406Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/index.html</loc>
-    <lastmod>2024-02-19T05:28:50.457Z</lastmod>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/evm-caso-estudio-01.html</loc>
+    <lastmod>2024-02-22T00:35:05.848Z</lastmod>
   </url>
   <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-03.html</loc>
-    <lastmod>2024-02-15T01:23:20.723Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-04.html</loc>
-    <lastmod>2024-02-15T02:37:33.513Z</lastmod>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-09.html</loc>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
   </url>
   <url>
     <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-07.html</loc>
-    <lastmod>2024-02-15T03:43:11.985Z</lastmod>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-05.html</loc>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-03.html</loc>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-01.html</loc>
+    <lastmod>2024-02-21T20:49:35.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/index.html</loc>
+    <lastmod>2024-02-21T20:49:35.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-02.html</loc>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-04.html</loc>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-06.html</loc>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
   </url>
   <url>
     <loc>https://mesa-monitoreo-puntos.github.io/evm/posts/componente-08.html</loc>
-    <lastmod>2024-02-15T03:44:47.323Z</lastmod>
+    <lastmod>2024-02-21T20:49:35.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/index.html</loc>
+    <lastmod>2024-02-21T22:27:16.193Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mesa-monitoreo-puntos.github.io/evm-casos-estudio/posts/evm-caso-estudio-02.html</loc>
+    <lastmod>2024-02-22T00:50:49.665Z</lastmod>
   </url>
   <url>
     <loc>https://mesa-monitoreo-puntos.github.io/recursos/index.html</loc>
-    <lastmod>2024-02-20T05:53:58.817Z</lastmod>
+    <lastmod>2024-02-21T20:49:35.163Z</lastmod>
   </url>
 </urlset>
