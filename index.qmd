@@ -140,7 +140,10 @@ La EVM consta de ocho componentes esenciales.
 
 
 ::: {.g-col-12 .g-col-md-12}
-Derechos de autor &copy; 2024 [SIMOCUTE](https://simocute.go.cr/)
+Derechos de autor &copy; 2024 SIMOCUTE  
+\
+Sitio web: [https://simocute.go.cr/](https://simocute.go.cr/)  
+Correo electónico: simocute@minae.go.cr  
 
 :::
 

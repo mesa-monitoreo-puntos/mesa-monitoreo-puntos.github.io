@@ -6,7 +6,7 @@ listing:
   contents:
   - posts
   - "!index.qmd"
-  fields: ["image", "title", "subtitle"]
+  fields: ["image"]
   sort: "date"
   type: grid
   categories: false

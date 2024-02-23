@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <p>En esta sección se debe definir el año T1 y el T2, que corresponden con el primer y el último año de medición. Las diferencias entre ambos constituirán el cambio en el uso, cobertura de la tierra o ecosistema, según se esté midiendo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../img/parcela-t1-t2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"><img src="../../img/parcela-t1-t2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"></a></p>
+<p><a href="../../img/parcela-t1-t2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"><img src="../../img/parcela-t1-t2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)"></a></p>
 <figcaption>Ejemplo de una misma parcela vista en el T1 (2005) y T2 (2015)</figcaption>
 </figure>
 </div>
@@ -587,7 +587,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
