@@ -1,0 +1,7 @@
+---
+pagetitle: Acerca de este sitio | Mesa de Monitoreo por Puntos
+title: Acerca de este sitio
+search: false 
+---
+
+Este sitio fue desarrollado con el sistema de publicación técnica y científica [Quarto](https://quarto.org/) y el lenguaje de programación [R](https://www.r-project.org/) para computación estadística.
