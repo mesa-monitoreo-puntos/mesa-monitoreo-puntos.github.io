@@ -25,7 +25,7 @@ listing:
     contents: 
     - /evm-casos-estudio
     - "!index.qmd"
-    fields: ["image", "title"]
+    fields: ["image"]
     sort: "date"
     type: grid
     categories: false

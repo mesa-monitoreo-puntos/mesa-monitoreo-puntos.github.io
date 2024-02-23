@@ -1,7 +1,6 @@
 ---
-title: "Caso 02"
-subtitle: ""
-date: 2023-01-01
+title: "CATIE - Interpretación de puntos de muestreo de manglares"
+subtitle: "Caso de estudio de EVM"
 image: ../../img/evm-caso-estudio-02.png
 toc: true
 ---
