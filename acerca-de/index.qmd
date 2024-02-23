@@ -5,3 +5,5 @@ search: false
 ---
 
 Este sitio fue desarrollado con el sistema de publicación técnica y científica [Quarto](https://quarto.org/) y el lenguaje de programación [R](https://www.r-project.org/) para computación estadística.
+
+El [código fuente](https://github.com/mesa-monitoreo-puntos/mesa-monitoreo-puntos.github.io) del sitio se alberga en la plataforma [GitHub](https://github.com/) y se publica en el servicio [GitHub Pages](https://pages.github.com/), en la dirección [https://mesa-monitoreo-puntos.github.io/](https://mesa-monitoreo-puntos.github.io/). 
