@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -72,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-componentes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-componentes'] = new List('listing-componentes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -196,6 +216,7 @@ window.Quarto = {
   <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
   <li><a href="#determinación-de-la-necesidad" id="toc-determinación-de-la-necesidad" class="nav-link" data-scroll-target="#determinación-de-la-necesidad">Determinación de la necesidad</a></li>
   <li><a href="#componentes" id="toc-componentes" class="nav-link" data-scroll-target="#componentes">Componentes</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
 </nav>
     </div>
@@ -208,9 +229,9 @@ window.Quarto = {
 
 <section id="introducción" class="level2">
 <h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
-<p>La Evaluación Visual Multitemporal (EVM), también conocida como “Sistema de Monitoreo por Puntos (SMPP)”, es una metodología que pretende proporcionar información consistente y periódica acerca de la composición de la cobertura o uso de la tierra, tanto a nivel nacional como regional y local, así como los cambios ocurridos en ambas propiedades del paisaje, entre intervalos determinados de tiempo (Calvo y Hamilton: 2020; https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf).</p>
-<p>El diseño de la EVM ha estado a cargo de un grupo de expertos de las instituciones que conforman la Mesa Técnica sobre Estimación de Cambios en la Superficie de la Tierra por Puntos (Monitoreo por Puntos), con la guía del Servicio Forestal de los Estados Unidos (USFS) y el programa SilvaCarbon (Calvo y Hamilton: 2020; https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf).</p>
-<p>La EVM consiste en un muestreo directo de todas las tierras a través de interpretación visual de imágenes de alta resolución, para cuantificar las áreas de cada cobertura y uso de la tierra, los cambios y el nivel de incertidumbre asociado. La metodología consiste en diseñar una grilla sistemática de puntos (que puede ser de 3 x 3, 5 x 5 puntos o más, según la necesidad y recursos) sobre parcelas predefinidas (ver información de las Mallas de SIMOCUTE en el componente 2 de la metodología), visualizándolas sobre imágenes de alta resolución. Un analista con experiencia en el campo revisa los puntos de la grilla e interpreta la cobertura o el uso de la tierra de cada uno (Calvo y Hamilton: 2020; https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf).</p>
+<p>La Evaluación Visual Multitemporal (EVM), también conocida como Sistema de Monitoreo por Puntos (SMPP), es una metodología que pretende proporcionar información consistente y periódica acerca de la composición de la cobertura o uso de la tierra, tanto a nivel nacional como regional y local, así como los cambios ocurridos en ambas propiedades del paisaje, entre intervalos determinados de tiempo <span class="citation" data-cites="mendez_evaluacion_2020">(<a href="#ref-mendez_evaluacion_2020" role="doc-biblioref">Méndez &amp; Hamilton, 2020</a>)</span>.</p>
+<p>El diseño de la EVM ha estado a cargo de un grupo de expertos de las instituciones que conforman la Mesa Técnica sobre Estimación de Cambios en la Superficie de la Tierra por Puntos (Monitoreo por Puntos), con la guía del Servicio Forestal de los Estados Unidos (USFS) y el programa SilvaCarbon <span class="citation" data-cites="mendez_evaluacion_2020">(<a href="#ref-mendez_evaluacion_2020" role="doc-biblioref">Méndez &amp; Hamilton, 2020</a>)</span>.</p>
+<p>La EVM consiste en un muestreo directo de todas las tierras a través de interpretación visual de imágenes de alta resolución, para cuantificar las áreas de cada cobertura y uso de la tierra, los cambios y el nivel de incertidumbre asociado. La metodología consiste en diseñar una grilla sistemática de puntos (que puede ser de 3x3, 5x5 puntos o más, según la necesidad y recursos) sobre parcelas predefinidas (ver información de las Mallas de SIMOCUTE en el componente 2 de la metodología), visualizándolas sobre imágenes de alta resolución. Un analista con experiencia en el campo revisa los puntos de la grilla e interpreta la cobertura o el uso de la tierra de cada uno <span class="citation" data-cites="mendez_evaluacion_2020">(<a href="#ref-mendez_evaluacion_2020" role="doc-biblioref">Méndez &amp; Hamilton, 2020</a>)</span>.</p>
 </section>
 <section id="determinación-de-la-necesidad" class="level2">
 <h2 class="anchored" data-anchor-id="determinación-de-la-necesidad">Determinación de la necesidad</h2>
@@ -219,14 +240,9 @@ window.Quarto = {
 <section id="componentes" class="level2">
 <h2 class="anchored" data-anchor-id="componentes">Componentes</h2>
 <p>Es esta sección se presentan los pasos a seguir, de acuerdo con cada componente de la metodología, para implementar un proyecto de EVM.</p>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div id="listing-componentes" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1708643381316" data-listing-reading-time-sort="3" data-listing-word-count-sort="589">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1708658198226" data-listing-reading-time-sort="3" data-listing-word-count-sort="598">
 <a href="../evm/posts/evm-componente-01.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -235,7 +251,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1708643391255" data-listing-reading-time-sort="4" data-listing-word-count-sort="654">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1708659186435" data-listing-reading-time-sort="4" data-listing-word-count-sort="670">
 <a href="../evm/posts/evm-componente-02.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -244,7 +260,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1708643403147" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1708659799544" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
 <a href="../evm/posts/evm-componente-03.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -253,7 +269,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1708643415477" data-listing-reading-time-sort="3" data-listing-word-count-sort="408">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1708660210154" data-listing-reading-time-sort="3" data-listing-word-count-sort="404">
 <a href="../evm/posts/evm-componente-04.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -262,7 +278,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1708643454643" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1708661726893" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <a href="../evm/posts/evm-componente-05.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -271,7 +287,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1708643464185" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1708661703960" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
 <a href="../evm/posts/evm-componente-06.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -280,7 +296,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1708643504665" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1708662150106" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
 <a href="../evm/posts/evm-componente-07.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -289,7 +305,7 @@ window.Quarto = {
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1708643515102" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1708662182414" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
 <a href="../evm/posts/evm-componente-08.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -302,7 +318,21 @@ window.Quarto = {
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="referencias" class="level1">
+<h1>Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-mendez_evaluacion_2020" class="csl-entry" role="listitem">
+Méndez, M. C., &amp; Hamilton, R. (2020). La evaluación visual multi- temporal: innovación para el monitoreo de la cobertura y uso de la tierra. <em>Ambientico</em>, <em>273</em>(7), 51-56. Recuperado de <a href="https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf">https://www.ambientico.una.ac.cr/wp-content/uploads/tainacan-items/5/30672/273_51-56.pdf</a>
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

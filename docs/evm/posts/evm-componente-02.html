@@ -137,7 +137,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#diseño-de-muestreo" id="toc-diseño-de-muestreo" class="nav-link active" data-scroll-target="#diseño-de-muestreo">Diseño de muestreo</a></li>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#diseño-de-muestreo" id="toc-diseño-de-muestreo" class="nav-link" data-scroll-target="#diseño-de-muestreo">Diseño de muestreo</a></li>
   <li><a href="#herramientas-a-utilizar" id="toc-herramientas-a-utilizar" class="nav-link" data-scroll-target="#herramientas-a-utilizar">Herramientas a utilizar</a></li>
   <li><a href="#sistema-de-clasificación" id="toc-sistema-de-clasificación" class="nav-link" data-scroll-target="#sistema-de-clasificación">Sistema de clasificación</a></li>
   <li><a href="#nivel-de-la-malla-de-puntos" id="toc-nivel-de-la-malla-de-puntos" class="nav-link" data-scroll-target="#nivel-de-la-malla-de-puntos">Nivel de la malla de puntos</a></li>
@@ -152,25 +153,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
 <p>Este componente corresponde con la definición de lineamientos técnicos que debe seguir un estudio de EVM, a saber, el diseño de muestreo, las herramientas a utilizar, el sistema de clasificación y su correspondiente nivel en la jerarquía a alcanzar, el nivel de la malla de puntos que requiere el estudio y la fuente primaria de las imágenes para la interpretación.</p>
+</section>
 <section id="diseño-de-muestreo" class="level2">
 <h2 class="anchored" data-anchor-id="diseño-de-muestreo">Diseño de muestreo</h2>
-<p>Considera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se ve en la siguiente imagen.</p>
+<p>Considera el tamaño de la parcela a utilizar y la cantidad de puntos que se distribuirán dentro de cada una. Estos dos aspectos dependerán de los objetivos del estudio definidos en la sección anterior, así como de los recursos y el tiempo con los que se cuente. Para el caso de los estudios de EVM a escala nacional se han utilizado tamaños de parcela de 1 y 2 ha (dependiendo de la definición de bosques que se utiliza para el reporte final: 1 ha definición legal nacional y 2 ha definición para el reporte REDD+), y una distribución de puntos de 3x3, 5x5 y 7x7, tal como se observa en la siguiente imagen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="../../img/diseno-muestreo.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../img/diseno-muestreo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Diseño del muestreo"></a></p>
 </figure>
 </div>
-<p>Algunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación 5.3.1.</p>
+<p>Algunas consideraciones para la selección del diseño de la parcela se pueden ver en la presentación <a href="../../recursos/Consideraciones_interpretacion_malla_de_puntos_y_mapa_tipo_de_bosques.pdf">Consideraciones sobre el tamaño de la parcela y el número de puntos por parcela (Randy Hamilton)</a>.</p>
 </section>
 <section id="herramientas-a-utilizar" class="level2">
 <h2 class="anchored" data-anchor-id="herramientas-a-utilizar">Herramientas a utilizar</h2>
-<p>Esto se refiere al sistema computacional que se utilizará para la interpretación de las parcelas. En el marco del SIMOCUTE se han sugerido dos herramientas para realizar este trabajo, que serían el Collect Earth Desktop (CED) y Collect Earth Online (CEO).</p>
+<p>Esto se refiere al sistema computacional que se utilizará para la interpretación de las parcelas. En el marco del SIMOCUTE se han sugerido dos herramientas para realizar este trabajo: el <a href="https://openforis.org/tools/collect-earth/">Collect Earth Desktop (CED)</a> y <a href="https://www.collect.earth/">Collect Earth Online (CEO)</a>.</p>
 <p>El Collect Earth es una herramienta que permite la recopilación de datos a través del programa Google Earth principalmente. Gracias a capas base de imágenes satelitales como Google Earth, Bing Maps, Google Earth Engine, entre otros, el usuario puede analizar imágenes de alta o muy alta resolución mediate la colecta de información con mallas regulares. Existen diferencias importantes entre ambos sistemas a nivel de interfaz, pero la más importante a considerar para un estudio de EVM es que el CED permite la interpretación únicamente a nivel de parcela, mientra que en el CEO se pueden obtener datos a nivel de cada uno de los puntos dentro de las parcelas. Ambas herramientas constituyen software libre.</p>
 </section>
 <section id="sistema-de-clasificación" class="level2">
 <h2 class="anchored" data-anchor-id="sistema-de-clasificación">Sistema de clasificación</h2>
-<p>Desde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y Cobertura de la Tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento “Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2,0 (https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf).</p>
+<p>Desde hace varios años se viene desarrollando en el contexto del SIMOCUTE un sistema de clasificación con 2 claves: uso de la tierra y cobertura de la tierra, en consenso con las instituciones miembros del SIMOCUTE. Estos sistemas se caracterizan por ser jerárquico, dinámico, transparente, robusto, exhaustivo y con categorías mutuamente excluyentes. Para un estudio de EVM se debe decidir si se va a implementar uno o ambos de los sistemas de clasificación y el nivel jerárquico en cada uno. Esto va a depender de varios factores como los objetivos del estudio, los recursos y la resolución de las imágenes a utilizar. Para más detalles de ambos sistemas se pueden referir al documento <a href="https://simocute.go.cr/assets/documents/Sistema_de_Clasificaci%C3%B3n_Cobertura_y_Uso_v2.pdf">Sistema de clasificación del uso y la cobertura de la tierra para Costa Rica Versión 2.0 (SIMOCUTE)</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="../../img/sistema-clasificacion.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../../img/sistema-clasificacion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Sistema de clasificación"></a></p>
@@ -191,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Un estudio de EVM requiere para obtener resultados más precisos de imágenes de alta o muy alta resolución. Estas imágenes son las que utilizará el Collect Earth para la interpretación. El programa tiene algunas imágenes inlcluídas y permite que el usuario utilice otras de las que disponga. Es importante indicar que, para efectos de ser consistentes y no aumentar el error, se debe seleccionar una fuente de imágenes principal sobre la que se hará la interpretación y las demás se usarán como referencia o en caso de vacíos en las principales.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../img/fuente-imagenes.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../img/fuente-imagenes.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Fuente de las imágenes"></a></p>
+<p><a href="../../img/fuente-imagenes.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../img/fuente-imagenes.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Fuente de las imágenes"></a></p>
 </figure>
 </div>
 
@@ -587,7 +591,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

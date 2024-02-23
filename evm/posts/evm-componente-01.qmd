@@ -5,7 +5,8 @@ image: ../../img/evm-componente-01.png
 toc: true
 ---
 
-Una vez que se han establecido la necesidad y los recursos disponibles para el estudio de EVM, se puede iniciar con la definición del marco metodológico sobre el que se desarrollará el ejercicio (Ver ejemplo en el adjunto: Perfil del proyecto para el Ejercicio de Monitoreo_version_2.1.pdf). Este marco metodológico incluye la escala temporal y espacial acorde con la información requerida, la construcción de los objetivos general y específicos, el alcance del estudio, el tiempo y agenda seguida para llevar a cabo cada fase del proceso y la forma de trabajo adoptada por el equipo. Cada uno de estos puntos se detalla a continuación.
+## Introducción
+Una vez que se han establecido la necesidad y los recursos disponibles para el estudio de EVM, se puede iniciar con la definición del marco metodológico sobre el que se desarrollará el ejercicio (ver ejemplo en el documento [Perfil del proyecto para el Ejercicio de Monitoreo (Mesa de Monitoreo por Puntos)](../../recursos/Perfil_del_proyecto_para_el_Ejercicio_de_Monitoreo_version_2.1.pdf)). Este marco metodológico incluye la escala temporal y espacial acorde con la información requerida, la construcción de los objetivos general y específicos, el alcance del estudio, el tiempo y agenda seguida para llevar a cabo cada fase del proceso y la forma de trabajo adoptada por el equipo. Cada uno de estos puntos se detalla a continuación.
 
 ![](../../img/definicion-marco-general-puntos.jpg){.lightbox fig-alt="Definición del marco general del estudio" fig-align="center"}
 

@@ -11,4 +11,6 @@ Se sugiere realizar un taller inicial con todos los intérpretes sobre el sistem
 
 En estudios anteriores se ha realizado la interpretación por medio de talleres, es decir, se cita a todos los intérpretes en un tiempo y lugar específico para que todos trabajen juntos y puedan tener acceso más fácil a los supervisores en caso de parcelas confusas. Dependiendo de la cantidad de intérpretes y de parcelas, esto puede tomar varios días, o incluso varias semanas, por lo que los talleres pueden ocurrir al inicio de esta etapa para asegurar que el proceso se está llevando a cabo correctamente.
 
-![](../../img/interpretacion-parcelas.jpg){fig-alt="Interpretación de las parcelas" fig-align="center"}
+![](../../img/interpretacion-parcelas-01.jpg){.lightbox fig-alt="Control y aseguramiento de la calidad" fig-align="center"}
+
+![](../../img/interpretacion-parcelas-02.jpg){.lightbox fig-alt="Control y aseguramiento de la calidad" fig-align="center"}
