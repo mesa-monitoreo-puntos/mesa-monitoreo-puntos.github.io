@@ -36,7 +36,7 @@ Es esta sección se presentan los pasos a seguir, de acuerdo con cada componente
 ::: {#componentes}
 :::
 
-# Referencias
+## Referencias
 
 ::: {#refs}
 :::
